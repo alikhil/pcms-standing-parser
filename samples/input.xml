@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<standings>
+    <contest name="Занятие. 2016-10-15" time="57722739562" length="2700000000000000" status="running" frozen="no">
+        <challenge>
+            <problem alias="A" name="Подарок Диппера"/>
+            <problem alias="B" name="Конвейер"/>
+            <problem alias="C" name="Шкаф для обуви"/>
+            <problem alias="D" name="Дневник Гравити Фолз"/>
+            <problem alias="E" name="Цифровая загадка"/>
+            <problem alias="F" name="Зеркало"/>
+            <problem alias="G" name="В поисках неизведанного"/>
+            <problem alias="H" name="Тайная комната"/>
+            <problem alias="I" name="Починка хижины"/>
+            <problem alias="J" name="Очередь к аттракциону"/>
+            <problem alias="K" name="Диппер и аппарат"/>
+        </challenge>
+        <session id="ru.innopolis.university.2016-2017.school.20161015.74" party="Нугаев Тимур" alias="74" solved="2" penalty="1910350" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="ru.ifmo.neerc.io.2016-2017.20161015.changestr" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="B" id="ru.ifmo.neerc.io.2016-2017.20161015.conveyor" solved="0" penalty="955165" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="57308628709">
+                </run>
+                <run accepted="yes" time="57308731783">
+                </run>
+            </problem>
+            <problem alias="C" id="ru.ifmo.neerc.io.2016-2017.20161015.cupboard" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="ru.ifmo.neerc.io.2016-2017.20161015.diary" solved="0" penalty="955185" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="57309365346">
+                </run>
+                <run accepted="yes" time="57309922179">
+                </run>
+            </problem>
+            <problem alias="E" id="ru.ifmo.neerc.io.2016-2017.20161015.digits" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="ru.ifmo.neerc.io.2016-2017.20161015.mirror" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="ru.ifmo.neerc.io.2016-2017.20161015.paths" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="ru.ifmo.neerc.io.2016-2017.20161015.secretroom" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="ru.ifmo.neerc.io.2016-2017.20161015.squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="ru.ifmo.neerc.io.2016-2017.20161015.stack-queue" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="ru.ifmo.neerc.io.2016-2017.20161015.stringsqueries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.20161015.43" party="Гайнуллин Ильдар" alias="43" solved="1" penalty="6472" time="381162209" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="ru.ifmo.neerc.io.2016-2017.20161015.changestr" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="B" id="ru.ifmo.neerc.io.2016-2017.20161015.conveyor" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="ru.ifmo.neerc.io.2016-2017.20161015.cupboard" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="ru.ifmo.neerc.io.2016-2017.20161015.diary" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+                <run accepted="no" time="370524713">
+                </run>
+            </problem>
+            <problem alias="E" id="ru.ifmo.neerc.io.2016-2017.20161015.digits" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="ru.ifmo.neerc.io.2016-2017.20161015.mirror" solved="0" penalty="6472" time="381162209" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="379405178">
+                </run>
+                <run accepted="no" time="379425195">
+                </run>
+                <run accepted="no" time="379474699">
+                </run>
+                <run accepted="no" time="379551443">
+                </run>
+                <run accepted="no" time="379944622">
+                </run>
+                <run accepted="no" time="379990569">
+                </run>
+                <run accepted="yes" time="381162209">
+                </run>
+            </problem>
+            <problem alias="G" id="ru.ifmo.neerc.io.2016-2017.20161015.paths" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="ru.ifmo.neerc.io.2016-2017.20161015.secretroom" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="ru.ifmo.neerc.io.2016-2017.20161015.squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="ru.ifmo.neerc.io.2016-2017.20161015.stack-queue" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="ru.ifmo.neerc.io.2016-2017.20161015.stringsqueries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+    </contest>
+</standings>
