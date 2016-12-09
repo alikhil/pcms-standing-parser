@@ -1,0 +1,632 @@
+<?xml version="1.0" ?>
+<standings>
+    <contest name="ЦОП 2016, параллель B', сортировки" time="3615596139" length="3888000000" status="running" frozen="no">
+        <challenge>
+            <problem alias="A" name="Простая сортировка"/>
+            <problem alias="B" name="Точки и отрезки"/>
+            <problem alias="C" name="Для любителей статистики"/>
+            <problem alias="D" name="K-ая порядковая статистика"/>
+            <problem alias="E" name="Количество инверсий"/>
+            <problem alias="F" name="Цифровая сортировка"/>
+            <problem alias="G" name="Отрезки с большой суммой"/>
+        </challenge>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.5" party="Халилов Адель" alias="5" solved="6" penalty="36107" time="606670385" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="45" time="2705611" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2705611">
+                </run>
+                <run accepted="no" time="628689294">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="6102" time="362574094" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="17511819">
+                </run>
+                <run accepted="no" time="205027172">
+                </run>
+                <run accepted="no" time="352240120">
+                </run>
+                <run accepted="yes" time="362574094">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="7758" time="461883493" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="356931399">
+                </run>
+                <run accepted="no" time="367106697">
+                </run>
+                <run accepted="no" time="367249077">
+                </run>
+                <run accepted="yes" time="461883493">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="2790" time="166241336" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="152766631">
+                </run>
+                <run accepted="no" time="152852792">
+                </run>
+                <run accepted="no" time="153535128">
+                </run>
+                <run accepted="no" time="153652916">
+                </run>
+                <run accepted="no" time="153976032">
+                </run>
+                <run accepted="yes" time="166241336">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="9261" time="554495249" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="553185473">
+                </run>
+                <run accepted="no" time="553453945">
+                </run>
+                <run accepted="yes" time="554495249">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="10151" time="606670385" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="605149524">
+                </run>
+                <run accepted="no" time="605207214">
+                </run>
+                <run accepted="no" time="606086522">
+                </run>
+                <run accepted="yes" time="606670385">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="7" score="0">
+                <run accepted="no" time="606718728">
+                </run>
+                <run accepted="no" time="628755033">
+                </run>
+                <run accepted="no" time="631823020">
+                </run>
+                <run accepted="no" time="634550808">
+                </run>
+                <run accepted="no" time="969832587">
+                </run>
+                <run accepted="no" time="1116239831">
+                </run>
+                <run accepted="no" time="1154170924">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.2" party="Николаев Александр" alias="2" solved="6" penalty="48175" time="967745799" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="13" time="829570" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="829570">
+                </run>
+                <run accepted="yes" time="965027959">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="6219" time="363545578" accepted="1" attempts="9" score="0">
+                <run accepted="no" time="1396232">
+                </run>
+                <run accepted="no" time="1755816">
+                </run>
+                <run accepted="no" time="2346766">
+                </run>
+                <run accepted="no" time="290369716">
+                </run>
+                <run accepted="no" time="360212515">
+                </run>
+                <run accepted="no" time="361463297">
+                </run>
+                <run accepted="no" time="361575626">
+                </run>
+                <run accepted="no" time="361922265">
+                </run>
+                <run accepted="yes" time="363545578">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="6325" time="372345158" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="31571674">
+                </run>
+                <run accepted="no" time="31863688">
+                </run>
+                <run accepted="no" time="365223265">
+                </run>
+                <run accepted="no" time="365326711">
+                </run>
+                <run accepted="no" time="366272973">
+                </run>
+                <run accepted="no" time="370690629">
+                </run>
+                <run accepted="yes" time="372345158">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="9228" time="545285514" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="505874870">
+                </run>
+                <run accepted="no" time="506015806">
+                </run>
+                <run accepted="no" time="507130657">
+                </run>
+                <run accepted="no" time="516112440">
+                </run>
+                <run accepted="no" time="516138842">
+                </run>
+                <run accepted="no" time="518844978">
+                </run>
+                <run accepted="no" time="518877368">
+                </run>
+                <run accepted="yes" time="545285514">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="16149" time="967745799" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="966687322">
+                </run>
+                <run accepted="yes" time="967745799">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="10241" time="613265545" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="613247206">
+                </run>
+                <run accepted="yes" time="613265545">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.11" party="Назмиев Айрат" alias="11" solved="4" penalty="30595" time="1155091803" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="205" time="11125943" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="956288">
+                </run>
+                <run accepted="yes" time="11125943">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="19371" time="1155091803" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="369734559">
+                </run>
+                <run accepted="no" time="370884958">
+                </run>
+                <run accepted="no" time="602407374">
+                </run>
+                <run accepted="no" time="602962879">
+                </run>
+                <run accepted="no" time="1150881043">
+                </run>
+                <run accepted="no" time="1151825702">
+                </run>
+                <run accepted="yes" time="1155091803">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="402" time="24146729" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="24146729">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="10617" time="635843006" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="634280275">
+                </run>
+                <run accepted="no" time="634340642">
+                </run>
+                <run accepted="yes" time="635843006">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.6" party="Хаялеев Тагир" alias="6" solved="4" penalty="35649" time="1188942533" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="2699" time="158371647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="155871182">
+                </run>
+                <run accepted="no" time="155915904">
+                </run>
+                <run accepted="no" time="158328956">
+                </run>
+                <run accepted="yes" time="158371647">
+                </run>
+                <run accepted="no" time="180275908">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="3007" time="180469142" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="180469142">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="9908" time="594480499" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="594480499">
+                </run>
+                <run accepted="no" time="594921287">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="20035" time="1188942533" accepted="1" attempts="12" score="0">
+                <run accepted="no" time="594953795">
+                </run>
+                <run accepted="no" time="605165177">
+                </run>
+                <run accepted="no" time="605426948">
+                </run>
+                <run accepted="no" time="880853904">
+                </run>
+                <run accepted="no" time="954330104">
+                </run>
+                <run accepted="no" time="954445598">
+                </run>
+                <run accepted="no" time="1140940759">
+                </run>
+                <run accepted="no" time="1141163223">
+                </run>
+                <run accepted="no" time="1141869258">
+                </run>
+                <run accepted="no" time="1141920095">
+                </run>
+                <run accepted="no" time="1144307118">
+                </run>
+                <run accepted="yes" time="1188942533">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.7" party="Фейгельман Андрей" alias="7" solved="2" penalty="19305" time="606415033" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="9199" time="549548991" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="539248779">
+                </run>
+                <run accepted="no" time="547700206">
+                </run>
+                <run accepted="yes" time="549548991">
+                </run>
+                <run accepted="no" time="603817259">
+                </run>
+                <run accepted="yes" time="603898161">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="593933926">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="10106" time="606415033" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="606415033">
+                </run>
+                <run accepted="no" time="606458546">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.16" party="Суслов  Алексей" alias="16" solved="1" penalty="13" time="827648" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="13" time="827648" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="827648">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="4" score="0">
+                <run accepted="no" time="604013280">
+                </run>
+                <run accepted="no" time="604043300">
+                </run>
+                <run accepted="no" time="605138431">
+                </run>
+                <run accepted="no" time="605513730">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.15" party="Вахитов Эмиль" alias="15" solved="1" penalty="58" time="2309896" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="58" time="2309896" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2205672">
+                </run>
+                <run accepted="yes" time="2309896">
+                </run>
+                <run accepted="no" time="1031316046">
+                </run>
+                <run accepted="no" time="1031366259">
+                </run>
+                <run accepted="no" time="1161849350">
+                </run>
+                <run accepted="yes" time="1162159347">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.3" party="Сагитов Искандер" alias="3" solved="1" penalty="89" time="1788868" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="89" time="1788868" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1334401">
+                </run>
+                <run accepted="no" time="1352776">
+                </run>
+                <run accepted="no" time="1746798">
+                </run>
+                <run accepted="yes" time="1788868">
+                </run>
+                <run accepted="no" time="882155938">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="7" score="0">
+                <run accepted="no" time="2530827">
+                </run>
+                <run accepted="no" time="97899241">
+                </run>
+                <run accepted="no" time="97940318">
+                </run>
+                <run accepted="no" time="965906441">
+                </run>
+                <run accepted="no" time="966045842">
+                </run>
+                <run accepted="no" time="966149360">
+                </run>
+                <run accepted="no" time="966571237">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="882124690">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.9" party="Андреев Аркадий" alias="9" solved="1" penalty="4854" time="291257077" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="4854" time="291257077" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="291257077">
+                </run>
+                <run accepted="yes" time="1190581718">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="1201033797">
+                </run>
+                <run accepted="no" time="1201114677">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.18" party="Сибгатуллин Данил" alias="18" solved="1" penalty="6084" time="362684440" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="6084" time="362684440" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="362268399">
+                </run>
+                <run accepted="no" time="362343859">
+                </run>
+                <run accepted="yes" time="362684440">
+                </run>
+                <run accepted="yes" time="363543830">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="362226948">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.10" party="Шамазов  Карим" alias="10" solved="1" penalty="10058" time="601093011" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="10058" time="601093011" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="2283072">
+                </run>
+                <run accepted="no" time="2331896">
+                </run>
+                <run accepted="yes" time="601093011">
+                </run>
+                <run accepted="no" time="601325083">
+                </run>
+                <run accepted="yes" time="602656582">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="605821457">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.4" party="Тимофеев Тимофей" alias="4" solved="1" penalty="20101" time="1206075289" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="20101" time="1206075289" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1206075289">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.1" party="Камалова Полина" alias="1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="0" time="0" accepted="0" attempts="18" score="0">
+                <run accepted="no" time="540387937">
+                </run>
+                <run accepted="no" time="545423333">
+                </run>
+                <run accepted="no" time="547600660">
+                </run>
+                <run accepted="no" time="603624788">
+                </run>
+                <run accepted="no" time="605256626">
+                </run>
+                <run accepted="no" time="605351694">
+                </run>
+                <run accepted="no" time="605396468">
+                </run>
+                <run accepted="no" time="606152761">
+                </run>
+                <run accepted="no" time="606527813">
+                </run>
+                <run accepted="no" time="606678338">
+                </run>
+                <run accepted="no" time="1124993199">
+                </run>
+                <run accepted="no" time="1125096297">
+                </run>
+                <run accepted="no" time="1125223468">
+                </run>
+                <run accepted="no" time="1206699111">
+                </run>
+                <run accepted="no" time="1207804238">
+                </run>
+                <run accepted="no" time="1209091518">
+                </run>
+                <run accepted="no" time="2406422250">
+                </run>
+                <run accepted="no" time="2406515842">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.13" party="Куватов  Мунир" alias="13" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="603583514">
+                </run>
+                <run accepted="no" time="603821415">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.14" party="Миронов Георгий" alias="14" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="601519587">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.17" party="Шарандак Яна" alias="17" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="0" time="0" accepted="0" attempts="5" score="0">
+                <run accepted="no" time="1204964757">
+                </run>
+                <run accepted="no" time="1205324556">
+                </run>
+                <run accepted="no" time="1205366627">
+                </run>
+                <run accepted="no" time="1205422831">
+                </run>
+                <run accepted="no" time="1205540945">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.groupB.4657.8" party="Багавиев Рамиль" alias="8" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.sort" solved="0" penalty="0" time="0" accepted="0" attempts="6" score="0">
+                <run accepted="no" time="111523104">
+                </run>
+                <run accepted="no" time="112480261">
+                </run>
+                <run accepted="no" time="461533923">
+                </run>
+                <run accepted="no" time="461590991">
+                </run>
+                <run accepted="no" time="604101822">
+                </run>
+                <run accepted="no" time="1322819761">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.segments" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.queries" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.kth" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.invcnt" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.radixsort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.bigseg" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+    </contest>
+</standings>

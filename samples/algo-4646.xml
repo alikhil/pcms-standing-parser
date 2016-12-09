@@ -1,0 +1,2395 @@
+<?xml version="1.0" ?>
+<standings>
+    <contest name="Алгоритмы. Основы. Эпизод 2. Встроенные типы данных." time="5605922004" length="360000000000" status="running" frozen="no">
+        <challenge>
+            <problem alias="A" name="Сумма двух чисел"/>
+            <problem alias="B" name="Площадь треугольника"/>
+            <problem alias="C" name="Игральные кубики"/>
+            <problem alias="D" name="День недели"/>
+            <problem alias="E" name="Расстояние"/>
+            <problem alias="F" name="Случайные числа"/>
+            <problem alias="G" name="Каникулы!"/>
+            <problem alias="H" name="Сортировка трех"/>
+        </challenge>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.10" party="гр1 Юрий Костин" alias="10" solved="8" penalty="31251" time="298246474" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1806" time="108392665" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108392665">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3674" time="214490080" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="207288744">
+                </run>
+                <run accepted="no" time="207451550">
+                </run>
+                <run accepted="no" time="207667663">
+                </run>
+                <run accepted="no" time="207816006">
+                </run>
+                <run accepted="no" time="213967622">
+                </run>
+                <run accepted="yes" time="214490080">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3664" time="215053081" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="214727260">
+                </run>
+                <run accepted="no" time="214774960">
+                </run>
+                <run accepted="no" time="214842887">
+                </run>
+                <run accepted="no" time="215002214">
+                </run>
+                <run accepted="yes" time="215053081">
+                </run>
+                <run accepted="no" time="552905110">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3597" time="215849516" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="215849516">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3601" time="216079340" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="216079340">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="4956" time="296216808" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="216977447">
+                </run>
+                <run accepted="yes" time="296216808">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="4943" time="296613576" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="296613576">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="5010" time="298246474" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="297984048">
+                </run>
+                <run accepted="no" time="298117316">
+                </run>
+                <run accepted="yes" time="298246474">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.45" party="гр2 Артем Никонов" alias="45" solved="8" penalty="34116" time="631527502" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3328" time="198513721" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="198041247">
+                </run>
+                <run accepted="yes" time="198513721">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3441" time="201705173" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="198966969">
+                </run>
+                <run accepted="no" time="199253699">
+                </run>
+                <run accepted="no" time="199299044">
+                </run>
+                <run accepted="no" time="200240654">
+                </run>
+                <run accepted="yes" time="201705173">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3325" time="199543977" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="199543977">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3335" time="200118633" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200118633">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3342" time="200562433" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200562433">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="3383" time="201824684" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="201057450">
+                </run>
+                <run accepted="yes" time="201824684">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="3377" time="201437417" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="201344842">
+                </run>
+                <run accepted="yes" time="201437417">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="10585" time="631527502" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="201922681">
+                </run>
+                <run accepted="no" time="201984720">
+                </run>
+                <run accepted="no" time="622635948">
+                </run>
+                <run accepted="yes" time="631527502">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.12" party="гр1 Розалина Миргалимова" alias="12" solved="8" penalty="37305" time="362149972" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1804" time="108276970" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108276970">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="5019" time="293951428" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="108944971">
+                </run>
+                <run accepted="no" time="109204874">
+                </run>
+                <run accepted="no" time="114821317">
+                </run>
+                <run accepted="no" time="115463911">
+                </run>
+                <run accepted="no" time="118309941">
+                </run>
+                <run accepted="no" time="118487281">
+                </run>
+                <run accepted="yes" time="293951428">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="4944" time="295441112" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="119105118">
+                </run>
+                <run accepted="yes" time="295441112">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="4850" time="291025250" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="291025250">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="4858" time="291492528" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="291492528">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="4875" time="292524884" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="292524884">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="4880" time="292837418" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="292837418">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="6075" time="362149972" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="293430749">
+                </run>
+                <run accepted="no" time="293570939">
+                </run>
+                <run accepted="yes" time="362149972">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.11" party="гр1 Сергей Мильграм" alias="11" solved="8" penalty="38739" time="293603900" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="4793" time="287634936" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="287634936">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="4933" time="293603900" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="287648439">
+                </run>
+                <run accepted="no" time="293505712">
+                </run>
+                <run accepted="yes" time="293603900">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="4801" time="288103916" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="288103916">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="4810" time="288623150" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="288623150">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="4826" time="289562868" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="289562868">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="4838" time="290335350" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="290335350">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="4849" time="290985087" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="290985087">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="4889" time="293367778" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="293367778">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.42" party="гр2 Ильнур Идиатуллов" alias="42" solved="8" penalty="46900" time="1406752614" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3310" time="198653747" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="198653747">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3357" time="199027948" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="198682280">
+                </run>
+                <run accepted="no" time="198697585">
+                </run>
+                <run accepted="yes" time="199027948">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3323" time="199400843" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="199400843">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3373" time="200039598" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="199864340">
+                </run>
+                <run accepted="no" time="199946785">
+                </run>
+                <run accepted="yes" time="200039598">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3339" time="200398102" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200398102">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="3373" time="201239808" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="201077034">
+                </run>
+                <run accepted="yes" time="201239808">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="3360" time="201646347" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201646347">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23465" time="1406752614" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1406443710">
+                </run>
+                <run accepted="yes" time="1406752614">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.2" party="гр1 Алия Габдуллина" alias="2" solved="8" penalty="49287" time="464553500" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1892" time="113523196" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="113523196">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="5029" time="295748021" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="114744619">
+                </run>
+                <run accepted="no" time="116848153">
+                </run>
+                <run accepted="no" time="117099071">
+                </run>
+                <run accepted="no" time="117135913">
+                </run>
+                <run accepted="no" time="120165441">
+                </run>
+                <run accepted="yes" time="295748021">
+                </run>
+                <run accepted="yes" time="295769623">
+                </run>
+                <run accepted="yes" time="295770967">
+                </run>
+                <run accepted="yes" time="295771404">
+                </run>
+                <run accepted="yes" time="295771826">
+                </run>
+                <run accepted="yes" time="295772185">
+                </run>
+                <run accepted="yes" time="295772514">
+                </run>
+                <run accepted="yes" time="295772717">
+                </run>
+                <run accepted="yes" time="295772810">
+                </run>
+                <run accepted="yes" time="295773107">
+                </run>
+                <run accepted="yes" time="295773248">
+                </run>
+                <run accepted="yes" time="295773467">
+                </run>
+                <run accepted="yes" time="295773741">
+                </run>
+                <run accepted="yes" time="295773975">
+                </run>
+                <run accepted="yes" time="295774241">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="7722" time="463375468" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="463375468">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="6360" time="381608071" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="381608071">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="7742" time="464553500" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="464553500">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="6384" time="381845429" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="297741443">
+                </run>
+                <run accepted="yes" time="381845429">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="6401" time="382900816" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="382825179">
+                </run>
+                <run accepted="yes" time="382900816">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="7757" time="464276760" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="464046349">
+                </run>
+                <run accepted="yes" time="464276760">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.32" party="гр2 Адель Ибрагимов" alias="32" solved="8" penalty="55886" time="1073470267" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3323" time="199386647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="199386647">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3309" time="198585071" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="198585071">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3330" time="199802376" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="199802376">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3342" time="200540069" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200540069">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3348" time="200906868" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200906868">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="3364" time="201888657" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201888657">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="17991" time="1073470267" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="1071581907">
+                </run>
+                <run accepted="no" time="1072961728">
+                </run>
+                <run accepted="no" time="1073000935">
+                </run>
+                <run accepted="no" time="1073160379">
+                </run>
+                <run accepted="no" time="1073333065">
+                </run>
+                <run accepted="yes" time="1073470267">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="17879" time="1072799491" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1072799491">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.9" party="гр1 Виталий Кольцов" alias="9" solved="8" penalty="60155" time="603602350" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1804" time="108284872" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108284872">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="1810" time="108628219" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108628219">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="9247" time="554858311" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="554858311">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="9265" time="555909549" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="555909549">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="9276" time="556590439" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="556292477">
+                </run>
+                <run accepted="yes" time="556590439">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="9311" time="557480467" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="557245507">
+                </run>
+                <run accepted="no" time="557293133">
+                </run>
+                <run accepted="yes" time="557480467">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="10140" time="603602350" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="557784606">
+                </run>
+                <run accepted="no" time="557863208">
+                </run>
+                <run accepted="no" time="558406847">
+                </run>
+                <run accepted="no" time="603525567">
+                </run>
+                <run accepted="yes" time="603602350">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="9302" time="558164306" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="558164306">
+                </run>
+                <run accepted="no" time="558388627">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.24" party="гр3 Марсель Кузнецов" alias="24" solved="8" penalty="79302" time="1227971520" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="323" time="19413455" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="19413455">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="319" time="19141048" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="19141048">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="335" time="20115846" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="20115846">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20506" time="1227971520" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="21289879">
+                </run>
+                <run accepted="no" time="21559377">
+                </run>
+                <run accepted="yes" time="1227971520">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="367" time="22052489" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="22052489">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="19170" time="1149033046" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="378460316">
+                </run>
+                <run accepted="no" time="1148676507">
+                </run>
+                <run accepted="yes" time="1149033046">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="19143" time="1148598930" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="378542727">
+                </run>
+                <run accepted="no" time="378554960">
+                </run>
+                <run accepted="yes" time="1148598930">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="19139" time="1148383521" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="1148327015">
+                </run>
+                <run accepted="yes" time="1148383521">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.28" party="гр3 Руслан Русских" alias="28" solved="8" penalty="79524" time="1753017637" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="329" time="19755776" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="19755776">
+                </run>
+                <run accepted="no" time="2978194967">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="398" time="21486888" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="20446368">
+                </run>
+                <run accepted="no" time="20516617">
+                </run>
+                <run accepted="yes" time="21486888">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="1635" time="95714441" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="93711378">
+                </run>
+                <run accepted="no" time="93880815">
+                </run>
+                <run accepted="no" time="95262880">
+                </run>
+                <run accepted="yes" time="95714441">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="29236" time="1753017637" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1752832690">
+                </run>
+                <run accepted="yes" time="1753017637">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20429" time="1225796866" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1225796866">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="9191" time="550314494" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="544410891">
+                </run>
+                <run accepted="yes" time="550314494">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="9139" time="548392140" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="548392140">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="9167" time="550021422" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="550021422">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.31" party="гр2 Анатолий Антонов" alias="31" solved="8" penalty="86719" time="1406441960" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3340" time="200453927" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200453927">
+                </run>
+                <run accepted="no" time="200472388">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3373" time="201225656" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="200490913">
+                </run>
+                <run accepted="yes" time="201225656">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3372" time="201158363" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="200498997">
+                </run>
+                <run accepted="yes" time="201158363">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3375" time="201328800" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="200507637">
+                </run>
+                <run accepted="yes" time="201328800">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3367" time="202038176" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="202038176">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23186" time="1391206344" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1391206344">
+                </run>
+                <run accepted="no" time="1408505050">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23186" time="1391215437" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1391215437">
+                </run>
+                <run accepted="no" time="1391221642">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23520" time="1406441960" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="1391246344">
+                </run>
+                <run accepted="no" time="1392726797">
+                </run>
+                <run accepted="no" time="1392797131">
+                </run>
+                <run accepted="no" time="1392958879">
+                </run>
+                <run accepted="yes" time="1406441960">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.36" party="гр2 Кирилл Титаренко" alias="36" solved="8" penalty="87154" time="1408831066" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3344" time="200666404" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200666404">
+                </run>
+                <run accepted="no" time="1405995522">
+                </run>
+                <run accepted="no" time="1407116668">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3344" time="200685845" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200685845">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3345" time="200700238" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200700238">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3345" time="200715988" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200715988">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3359" time="201592848" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201592848">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23453" time="1407222143" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407222143">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23484" time="1407849461" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1407230612">
+                </run>
+                <run accepted="yes" time="1407849461">
+                </run>
+                <run accepted="no" time="1408813472">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23480" time="1408831066" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1408831066">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.33" party="гр2 Булат Галимов" alias="33" solved="8" penalty="87285" time="1412083924" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3318" time="199115447" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="199115447">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3353" time="199989264" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="199410696">
+                </run>
+                <run accepted="yes" time="199989264">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3379" time="200396617" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="200269651">
+                </run>
+                <run accepted="no" time="200310009">
+                </run>
+                <run accepted="yes" time="200396617">
+                </run>
+                <run accepted="no" time="201121398">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3352" time="201148266" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201148266">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3365" time="201938627" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201938627">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23462" time="1407779668" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407779668">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23482" time="1408965390" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1408965390">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23574" time="1412083924" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1411396026">
+                </run>
+                <run accepted="no" time="1411596114">
+                </run>
+                <run accepted="yes" time="1412083924">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.37" party="гр2 Полина Миронова" alias="37" solved="8" penalty="87583" time="1410718879" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3313" time="198809493" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="198809493">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3358" time="199096442" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="198860509">
+                </run>
+                <run accepted="no" time="198988622">
+                </run>
+                <run accepted="yes" time="199096442">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3416" time="200177952" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="199762555">
+                </run>
+                <run accepted="no" time="199797854">
+                </run>
+                <run accepted="no" time="199936777">
+                </run>
+                <run accepted="no" time="200000853">
+                </run>
+                <run accepted="yes" time="200177952">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="3350" time="201042122" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201042122">
+                </run>
+                <run accepted="no" time="201800097">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3427" time="202037973" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="201825075">
+                </run>
+                <run accepted="no" time="201893722">
+                </run>
+                <run accepted="no" time="201984829">
+                </run>
+                <run accepted="yes" time="202037973">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23602" time="1407745934" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="1406933463">
+                </run>
+                <run accepted="no" time="1407008215">
+                </run>
+                <run accepted="no" time="1407203549">
+                </run>
+                <run accepted="no" time="1407311003">
+                </run>
+                <run accepted="no" time="1407379284">
+                </run>
+                <run accepted="no" time="1407636742">
+                </run>
+                <run accepted="no" time="1407654271">
+                </run>
+                <run accepted="yes" time="1407745934">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23586" time="1409163390" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="1408712412">
+                </run>
+                <run accepted="no" time="1408754850">
+                </run>
+                <run accepted="no" time="1408848441">
+                </run>
+                <run accepted="no" time="1408925147">
+                </run>
+                <run accepted="no" time="1409044409">
+                </run>
+                <run accepted="yes" time="1409163390">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23531" time="1410718879" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1410417585">
+                </run>
+                <run accepted="yes" time="1410718879">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.3" party="гр1 Руслан Гареев" alias="3" solved="8" penalty="90843" time="1502851628" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1824" time="108294781" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="108234766">
+                </run>
+                <run accepted="yes" time="108294781">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="10641" time="637281799" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="637221381">
+                </run>
+                <run accepted="yes" time="637281799">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="10631" time="637870365" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="637870365">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="10648" time="638921445" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="638921445">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="10653" time="639202327" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="639202327">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="10666" time="639973580" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="639973580">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="10713" time="640395532" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="640291521">
+                </run>
+                <run accepted="no" time="640335312">
+                </run>
+                <run accepted="yes" time="640395532">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="25067" time="1502851628" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1501405143">
+                </run>
+                <run accepted="no" time="1501493721">
+                </run>
+                <run accepted="no" time="1501532765">
+                </run>
+                <run accepted="no" time="1501589667">
+                </run>
+                <run accepted="no" time="1502564197">
+                </run>
+                <run accepted="yes" time="1502851628">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.5" party="гр1 Рамиль Зарипов" alias="5" solved="8" penalty="93551" time="704137585" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="11641" time="698489177" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="698489177">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="11702" time="700966942" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="700598726">
+                </run>
+                <run accepted="yes" time="700966942">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="11744" time="703452743" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="702891402">
+                </run>
+                <run accepted="no" time="702909748">
+                </run>
+                <run accepted="no" time="703098455">
+                </run>
+                <run accepted="no" time="703303567">
+                </run>
+                <run accepted="yes" time="703452743">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="11652" time="699150071" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="699150071">
+                </run>
+                <run accepted="no" time="699692504">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="11669" time="700186511" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="700186511">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="11775" time="704137585" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="703894592">
+                </run>
+                <run accepted="no" time="703969373">
+                </run>
+                <run accepted="yes" time="704137585">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="11706" time="702414013" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="702414013">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="11662" time="699743226" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="699743226">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.38" party="гр2 Максим Касакин" alias="38" solved="8" penalty="96325" time="1410817520" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="7766" time="465979001" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="465979001">
+                </run>
+                <run accepted="no" time="466041114">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3332" time="198755991" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="198625237">
+                </run>
+                <run accepted="yes" time="198755991">
+                </run>
+                <run accepted="no" time="199333585">
+                </run>
+                <run accepted="no" time="199353067">
+                </run>
+                <run accepted="no" time="199377442">
+                </run>
+                <run accepted="no" time="199680960">
+                </run>
+                <run accepted="no" time="199731536">
+                </run>
+                <run accepted="no" time="199751316">
+                </run>
+                <run accepted="no" time="199848159">
+                </run>
+                <run accepted="no" time="199882211">
+                </run>
+                <run accepted="no" time="200123339">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3339" time="200343313" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="200343313">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="7787" time="466049322" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="200863326">
+                </run>
+                <run accepted="yes" time="466049322">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="3511" time="209501831" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="202131052">
+                </run>
+                <run accepted="yes" time="209501831">
+                </run>
+                <run accepted="no" time="211654038">
+                </run>
+                <run accepted="no" time="211730365">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23497" time="1409853420" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1409853420">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23580" time="1406434663" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="211949628">
+                </run>
+                <run accepted="no" time="211991247">
+                </run>
+                <run accepted="no" time="466263296">
+                </run>
+                <run accepted="no" time="466360385">
+                </run>
+                <run accepted="no" time="1405275952">
+                </run>
+                <run accepted="no" time="1405529115">
+                </run>
+                <run accepted="no" time="1406263856">
+                </run>
+                <run accepted="yes" time="1406434663">
+                </run>
+                <run accepted="no" time="1409837170">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23513" time="1410817520" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1410817520">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.23" party="гр3 Сергей Германов" alias="23" solved="8" penalty="104601" time="1290537166" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="307" time="18446104" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="18446104">
+                </run>
+                <run accepted="no" time="19815995">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="396" time="20189594" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="19863847">
+                </run>
+                <run accepted="no" time="20012368">
+                </run>
+                <run accepted="no" time="20123499">
+                </run>
+                <run accepted="yes" time="20189594">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="356" time="21413637" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="21413637">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20440" time="1226428013" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226428013">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20450" time="1227001701" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1227001701">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20552" time="1229533645" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1228600127">
+                </run>
+                <run accepted="no" time="1228710942">
+                </run>
+                <run accepted="no" time="1229179832">
+                </run>
+                <run accepted="yes" time="1229533645">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20512" time="1230720466" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1230720466">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="21588" time="1290537166" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="1231416425">
+                </run>
+                <run accepted="no" time="1288706101">
+                </run>
+                <run accepted="no" time="1289394899">
+                </run>
+                <run accepted="no" time="1289612900">
+                </run>
+                <run accepted="yes" time="1290537166">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.1" party="гр1 Раиль Бариев" alias="1" solved="8" penalty="115652" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1811" time="108661143" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108661143">
+                </run>
+                <run accepted="no" time="3446773611">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="57891" time="2147483647" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="109354460">
+                </run>
+                <run accepted="no" time="204862917">
+                </run>
+                <run accepted="no" time="205173927">
+                </run>
+                <run accepted="no" time="547434919">
+                </run>
+                <run accepted="no" time="603215649">
+                </run>
+                <run accepted="no" time="604311323">
+                </run>
+                <run accepted="no" time="3466062143">
+                </run>
+                <run accepted="yes" time="3466281409">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="9116" time="546994701" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="546884281">
+                </run>
+                <run accepted="no" time="546947238">
+                </run>
+                <run accepted="yes" time="546994701">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="9149" time="548954545" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="548954545">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="9159" time="549560407" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="549560407">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="10107" time="601651378" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="550996036">
+                </run>
+                <run accepted="no" time="551102127">
+                </run>
+                <run accepted="no" time="551190710">
+                </run>
+                <run accepted="no" time="551254767">
+                </run>
+                <run accepted="yes" time="601651378">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="9200" time="552030530" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="552030530">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="9219" time="553171262" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="553171262">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.21" party="гр3 Павел Капитов " alias="21" solved="8" penalty="123626" time="1231030604" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="334" time="20087178" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="20087178">
+                </run>
+                <run accepted="no" time="21045326">
+                </run>
+                <run accepted="no" time="21104145">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="351" time="21115181" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="21115181">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="20533" time="1230835371" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1230736096">
+                </run>
+                <run accepted="yes" time="1230835371">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20434" time="1226050809" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226050809">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20439" time="1226373673" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226373673">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20517" time="1231030604" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1231030604">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20449" time="1226979901" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226979901">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="20569" time="1230550990" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1227699665">
+                </run>
+                <run accepted="no" time="1228284190">
+                </run>
+                <run accepted="no" time="1229887672">
+                </run>
+                <run accepted="yes" time="1230550990">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.29" party="гр3 Руслан Кашапов" alias="29" solved="8" penalty="125678" time="1335612270" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="337" time="20236558" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="20236558">
+                </run>
+                <run accepted="no" time="20809648">
+                </run>
+                <run accepted="no" time="20850934">
+                </run>
+                <run accepted="no" time="1230341304">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="398" time="21527518" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="20929693">
+                </run>
+                <run accepted="no" time="21083626">
+                </run>
+                <run accepted="yes" time="21527518">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="20464" time="1226646186" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1226201532">
+                </run>
+                <run accepted="yes" time="1226646186">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20470" time="1228246475" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1228246475">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20480" time="1228802896" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1228802896">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20569" time="1230599141" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1229982315">
+                </run>
+                <run accepted="no" time="1230368032">
+                </run>
+                <run accepted="no" time="1230428959">
+                </run>
+                <run accepted="no" time="1230507802">
+                </run>
+                <run accepted="yes" time="1230599141">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20540" time="1231222055" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1231189899">
+                </run>
+                <run accepted="yes" time="1231222055">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="22420" time="1335612270" accepted="1" attempts="9" score="0">
+                <run accepted="no" time="1231735531">
+                </run>
+                <run accepted="no" time="1231820747">
+                </run>
+                <run accepted="no" time="1231898261">
+                </run>
+                <run accepted="no" time="1231935374">
+                </run>
+                <run accepted="no" time="1231981815">
+                </run>
+                <run accepted="no" time="1334572008">
+                </run>
+                <run accepted="no" time="1335081102">
+                </run>
+                <run accepted="no" time="1335537416">
+                </run>
+                <run accepted="yes" time="1335612270">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.40" party="гр2 Руфат Шарафутдинов" alias="40" solved="8" penalty="127586" time="1410784645" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3359" time="201587645" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201587645">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3420" time="200428367" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="198956347">
+                </run>
+                <run accepted="no" time="199097114">
+                </run>
+                <run accepted="no" time="199787756">
+                </run>
+                <run accepted="no" time="199815715">
+                </run>
+                <run accepted="yes" time="200428367">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3352" time="201126080" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201126080">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="23500" time="1406432444" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1406225115">
+                </run>
+                <run accepted="no" time="1406282075">
+                </run>
+                <run accepted="no" time="1406349473">
+                </run>
+                <run accepted="yes" time="1406432444">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="23451" time="1407089480" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407089480">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23513" time="1409583993" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1409483079">
+                </run>
+                <run accepted="yes" time="1409583993">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23478" time="1408704246" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1408704246">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23513" time="1410784645" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1410784645">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.48" party="гр3 Николай Яшин" alias="48" solved="8" penalty="133902" time="1231119052" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="10441" time="624063981" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="622482888">
+                </run>
+                <run accepted="no" time="622819428">
+                </run>
+                <run accepted="no" time="623038061">
+                </run>
+                <run accepted="yes" time="624063981">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="10453" time="624824563" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="624524547">
+                </run>
+                <run accepted="no" time="624680467">
+                </run>
+                <run accepted="yes" time="624824563">
+                </run>
+                <run accepted="no" time="625642903">
+                </run>
+                <run accepted="no" time="625656830">
+                </run>
+                <run accepted="no" time="625670920">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="10449" time="625778030" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="625697783">
+                </run>
+                <run accepted="yes" time="625778030">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20538" time="1231119052" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1231048322">
+                </run>
+                <run accepted="yes" time="1231119052">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20438" time="1226334236" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226334236">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20501" time="1227706223" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1227271655">
+                </run>
+                <run accepted="no" time="1227588112">
+                </run>
+                <run accepted="yes" time="1227706223">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20473" time="1228398164" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1228398164">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="20609" time="1230569206" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="1229165859">
+                </run>
+                <run accepted="no" time="1229218601">
+                </run>
+                <run accepted="no" time="1229396802">
+                </run>
+                <run accepted="no" time="1229881547">
+                </run>
+                <run accepted="no" time="1230311719">
+                </run>
+                <run accepted="yes" time="1230569206">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.13" party="гр1 Данил Сибгатуллин" alias="13" solved="8" penalty="154978" time="1313857573" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1818" time="109080236" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="109080236">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="21874" time="1312499878" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1312499878">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="21865" time="1311923879" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1311923879">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="21864" time="1311895871" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1311895871">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="21864" time="1311844918" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1311844918">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="21917" time="1313857573" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1311831433">
+                </run>
+                <run accepted="yes" time="1313857573">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="21913" time="1313585881" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1311816087">
+                </run>
+                <run accepted="yes" time="1313585881">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="21863" time="1311807743" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1311807743">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.14" party="гр1 Камиль Шарипов" alias="14" solved="8" penalty="162730" time="1300561716" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="16380" time="982801590" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="982801590">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="16386" time="983215110" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="983215110">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="21657" time="1297063953" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="984246423">
+                </run>
+                <run accepted="no" time="1296922405">
+                </run>
+                <run accepted="yes" time="1297063953">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="21618" time="1297084059" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1297084059">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="21625" time="1297545535" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1297545535">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="21649" time="1298973654" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1298973654">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="21699" time="1299541788" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1299466833">
+                </run>
+                <run accepted="no" time="1299517172">
+                </run>
+                <run accepted="yes" time="1299541788">
+                </run>
+                <run accepted="no" time="1300294182">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="21716" time="1300561716" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1300323450">
+                </run>
+                <run accepted="no" time="1300323575">
+                </run>
+                <run accepted="yes" time="1300561716">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.50" party="гр2 Тимур Нугаев" alias="50" solved="8" penalty="167455" time="1407257342" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3275" time="196504920" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="196504920">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="23463" time="1406588011" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1406499578">
+                </run>
+                <run accepted="yes" time="1406588011">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="23443" time="1406639433" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1406639433">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="23447" time="1406867693" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1406867693">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="23469" time="1406959963" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1406925838">
+                </run>
+                <run accepted="yes" time="1406959963">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="23451" time="1407079011" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407079011">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="23453" time="1407184855" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407184855">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="23454" time="1407257342" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1407257342">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.47" party="гр3 Никита Белкин" alias="47" solved="8" penalty="174073" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="10366" time="621968604" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="621968604">
+                </run>
+                <run accepted="no" time="2437669794">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="10399" time="622793908" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="622701238">
+                </run>
+                <run accepted="yes" time="622793908">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="10416" time="624997637" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="624997637">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20484" time="1229096174" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1229096174">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20517" time="1231053708" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1231053708">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20567" time="1231629767" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1231073810">
+                </run>
+                <run accepted="no" time="1231159301">
+                </run>
+                <run accepted="yes" time="1231629767">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="40628" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2437708809">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="40696" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2440146649">
+                </run>
+                <run accepted="yes" time="2440564535">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.51" party="гр4 Самат Марданов" alias="51" solved="8" penalty="325830" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="37677" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2260677249">
+                </run>
+                <run accepted="no" time="2261605859">
+                </run>
+                <run accepted="yes" time="2584219621">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="37810" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="2261662288">
+                </run>
+                <run accepted="no" time="2261828200">
+                </run>
+                <run accepted="no" time="2262037863">
+                </run>
+                <run accepted="no" time="2262095345">
+                </run>
+                <run accepted="no" time="2262499707">
+                </run>
+                <run accepted="yes" time="2262609734">
+                </run>
+                <run accepted="no" time="2264235494">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="37738" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2264308721">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="40788" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2447323271">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="40794" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2447662156">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="43999" time="2147483647" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="2607579350">
+                </run>
+                <run accepted="no" time="2608857085">
+                </run>
+                <run accepted="no" time="2609526643">
+                </run>
+                <run accepted="no" time="2616005091">
+                </run>
+                <run accepted="no" time="2616190820">
+                </run>
+                <run accepted="no" time="2632405808">
+                </run>
+                <run accepted="yes" time="2632750364">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="43548" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2612892124">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="43476" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2608607128">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.54" party="гр4 Салават Билалов" alias="54" solved="8" penalty="326575" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="37691" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2261514937">
+                </run>
+                <run accepted="no" time="2352682442">
+                </run>
+                <run accepted="no" time="2584114057">
+                </run>
+                <run accepted="no" time="2584436680">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="37718" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2263131497">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="39272" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="2264313797">
+                </run>
+                <run accepted="no" time="2264437501">
+                </run>
+                <run accepted="no" time="2264469668">
+                </run>
+                <run accepted="yes" time="2352743148">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="39232" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2353967746">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="43074" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2584454244">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="43206" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2592392885">
+                </run>
+                <run accepted="no" time="2592776969">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="43169" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2590186739">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="43213" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2592794417">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.57" party="гр4 Ришат Яруллин" alias="57" solved="8" penalty="355077" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="43520" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2587279262">
+                </run>
+                <run accepted="yes" time="2610040586">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="44956" time="2147483647" accepted="1" attempts="14" score="0">
+                <run accepted="no" time="2611505229">
+                </run>
+                <run accepted="no" time="2673073074">
+                </run>
+                <run accepted="no" time="2673101176">
+                </run>
+                <run accepted="no" time="2673162290">
+                </run>
+                <run accepted="no" time="2673257948">
+                </run>
+                <run accepted="no" time="2673503450">
+                </run>
+                <run accepted="no" time="2673704251">
+                </run>
+                <run accepted="no" time="2673853658">
+                </run>
+                <run accepted="no" time="2680270734">
+                </run>
+                <run accepted="no" time="2680294250">
+                </run>
+                <run accepted="no" time="2681040154">
+                </run>
+                <run accepted="no" time="2681365986">
+                </run>
+                <run accepted="no" time="2681490392">
+                </run>
+                <run accepted="yes" time="2681801139">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="43190" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2591412282">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="44637" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="2616501482">
+                </run>
+                <run accepted="no" time="2675258501">
+                </run>
+                <run accepted="yes" time="2675825329">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="44687" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2619771785">
+                </run>
+                <run accepted="yes" time="2680065123">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="44634" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="2671327753">
+                </run>
+                <run accepted="no" time="2671398301">
+                </run>
+                <run accepted="no" time="2671594753">
+                </run>
+                <run accepted="no" time="2671641297">
+                </run>
+                <run accepted="no" time="2671650743">
+                </run>
+                <run accepted="yes" time="2672052797">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="44779" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2686798875">
+                </run>
+                <run accepted="yes" time="2686874645">
+                </run>
+                <run accepted="yes" time="2686930891">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="44674" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2679204843">
+                </run>
+                <run accepted="yes" time="2679249433">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.58" party="гр4 Name 58" alias="58" solved="8" penalty="359952" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="43108" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2586499242">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="43197" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2588065368">
+                </run>
+                <run accepted="yes" time="2590667481">
+                </run>
+                <run accepted="no" time="2590734803">
+                </run>
+                <run accepted="no" time="2590830807">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="43226" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="2590843973">
+                </run>
+                <run accepted="no" time="2591153013">
+                </run>
+                <run accepted="yes" time="2591184941">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="44970" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2624361801">
+                </run>
+                <run accepted="yes" time="2697002421">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="44967" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2698051683">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="46497" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="2787196732">
+                </run>
+                <run accepted="no" time="2787289281">
+                </run>
+                <run accepted="yes" time="2787479668">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="46502" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2788886303">
+                </run>
+                <run accepted="yes" time="2788952541">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="47485" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="2790737866">
+                </run>
+                <run accepted="no" time="2848770570">
+                </run>
+                <run accepted="yes" time="2849113498">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.6" party="гр1 Камиль Исхаков" alias="6" solved="7" penalty="62474" time="607981558" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1805" time="108326413" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108326413">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="3" score="0">
+                <run accepted="no" time="108869911">
+                </run>
+                <run accepted="no" time="109051217">
+                </run>
+                <run accepted="no" time="603034775">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="10075" time="604555278" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="604555278">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="10083" time="605015740" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="605015740">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="10089" time="605381185" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="605381185">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="10193" time="607981558" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="606050821">
+                </run>
+                <run accepted="no" time="607388257">
+                </run>
+                <run accepted="no" time="607567921">
+                </run>
+                <run accepted="yes" time="607981558">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="10112" time="606726523" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="606726523">
+                </run>
+                <run accepted="no" time="606991322">
+                </run>
+                <run accepted="no" time="607012165">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="10117" time="607025023" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="607025023">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.26" party="гр3 Камиль Туктагулов" alias="26" solved="7" penalty="143475" time="1231981756" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="20440" time="1226431758" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1226431758">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="20505" time="1227942203" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1227095412">
+                </run>
+                <run accepted="no" time="1227564938">
+                </run>
+                <run accepted="yes" time="1227942203">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="20472" time="1228355801" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1228355801">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20488" time="1229325552" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1229325552">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20497" time="1229860706" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1229860706">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20520" time="1231214481" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1231214481">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20553" time="1231981756" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1231797468">
+                </run>
+                <run accepted="yes" time="1231981756">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.56" party="гр4 Байбаков Рустам" alias="56" solved="7" penalty="297024" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="37696" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="2261670500">
+                </run>
+                <run accepted="yes" time="2261772938">
+                </run>
+                <run accepted="no" time="2263301432">
+                </run>
+                <run accepted="yes" time="2587391300">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="37808" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="2263373699">
+                </run>
+                <run accepted="no" time="2263436845">
+                </run>
+                <run accepted="no" time="2263574170">
+                </run>
+                <run accepted="no" time="2263627679">
+                </run>
+                <run accepted="yes" time="2263737976">
+                </run>
+                <run accepted="yes" time="2263757615">
+                </run>
+                <run accepted="no" time="2588711702">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="43052" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2583155152">
+                </run>
+                <run accepted="yes" time="2590774586">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="43199" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="2584997540">
+                </run>
+                <run accepted="no" time="2585057106">
+                </run>
+                <run accepted="no" time="2585643729">
+                </run>
+                <run accepted="no" time="2585684507">
+                </run>
+                <run accepted="no" time="2585810913">
+                </run>
+                <run accepted="yes" time="2585996634">
+                </run>
+                <run accepted="no" time="2587801210">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="43130" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2587837925">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="46113" time="2147483647" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="2757158443">
+                </run>
+                <run accepted="no" time="2757213454">
+                </run>
+                <run accepted="no" time="2757447496">
+                </run>
+                <run accepted="no" time="2757466759">
+                </run>
+                <run accepted="no" time="2758119413">
+                </run>
+                <run accepted="no" time="2758142379">
+                </run>
+                <run accepted="no" time="2758210783">
+                </run>
+                <run accepted="yes" time="2758383188">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="46026" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2761609182">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.27" party="гр3 Даниил Паликарпов" alias="27" solved="6" penalty="62590" time="1230946336" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="372" time="21134666" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="21118004">
+                </run>
+                <run accepted="yes" time="21134666">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="394" time="21273315" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="21127259">
+                </run>
+                <run accepted="no" time="21199982">
+                </run>
+                <run accepted="yes" time="21273315">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="364" time="21877620" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="21877620">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20465" time="1227906178" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1227906178">
+                </run>
+                <run accepted="no" time="1228828745">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="20480" time="1228854884" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1228854884">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="20515" time="1230946336" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1230946336">
+                </run>
+                <run accepted="yes" time="1230969946">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="1231874950">
+                </run>
+                <run accepted="no" time="1231955791">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.22" party="гр3 Рената Шакирова" alias="22" solved="5" penalty="1701" time="21534976" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="300" time="18057230" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="18057230">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="355" time="18905066" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="18389717">
+                </run>
+                <run accepted="no" time="18475208">
+                </run>
+                <run accepted="yes" time="18905066">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="338" time="20291414" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="20291414">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="350" time="21015864" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="21015864">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="358" time="21534976" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="21534976">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.25" party="гр3 Руслан Матвеев" alias="25" solved="5" penalty="42134" time="1230456287" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="337" time="20237324" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="20237324">
+                </run>
+                <run accepted="yes" time="20263333">
+                </run>
+                <run accepted="no" time="20707275">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="367" time="20835919" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="20734971">
+                </run>
+                <run accepted="yes" time="20835919">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="386" time="22000546" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="21941119">
+                </run>
+                <run accepted="yes" time="22000546">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="20497" time="1228630649" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1228437198">
+                </run>
+                <run accepted="yes" time="1228630649">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="20547" time="1230456287" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1229914073">
+                </run>
+                <run accepted="no" time="1229998228">
+                </run>
+                <run accepted="yes" time="1230456287">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="3" score="0">
+                <run accepted="no" time="1230847251">
+                </run>
+                <run accepted="no" time="1231779182">
+                </run>
+                <run accepted="no" time="1231993083">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.43" party="гр2 Диана Мухамедшина" alias="43" solved="5" penalty="56983" time="1409939154" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3312" time="198728675" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="198728675">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3311" time="198690520" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="198690520">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="3364" time="200680497" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="200242497">
+                </run>
+                <run accepted="yes" time="200680497">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="23498" time="1409913623" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1409913623">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="23498" time="1409939154" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1409939154">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.44" party="гр2 Илья Белов" alias="44" solved="5" penalty="77244" time="1410811582" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3356" time="201374352" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201374352">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3354" time="201274959" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201274959">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="23470" time="1407059715" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1406902280">
+                </run>
+                <run accepted="yes" time="1407059715">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="23551" time="1409496267" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="1409147644">
+                </run>
+                <run accepted="no" time="1409354407">
+                </run>
+                <run accepted="no" time="1409422204">
+                </run>
+                <run accepted="yes" time="1409496267">
+                </run>
+                <run accepted="no" time="1410799614">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="23513" time="1410811582" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1410811582">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.52" party="гр4 Name 52" alias="52" solved="5" penalty="215504" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="43048" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2582925761">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="43194" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="2583654636">
+                </run>
+                <run accepted="no" time="2586498617">
+                </run>
+                <run accepted="no" time="2586581386">
+                </run>
+                <run accepted="no" time="2586750019">
+                </run>
+                <run accepted="yes" time="2586853753">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="43068" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2584104353">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="43088" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2585280272">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="43106" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2586414126">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.41" party="гр2 Айдар Валиев" alias="41" solved="4" penalty="53703" time="1409577930" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3360" time="201635750" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201635750">
+                </run>
+                <run accepted="no" time="1406589808">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3360" time="201648602" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201648602">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="23491" time="1407077246" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="1406614417">
+                </run>
+                <run accepted="no" time="1406902671">
+                </run>
+                <run accepted="yes" time="1407077246">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="23492" time="1409577930" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1409577930">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.7" party="гр1 Александр Кандрашкин" alias="7" solved="4" penalty="262482" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="57438" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3446328848">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="68324" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3446873251">
+                </run>
+                <run accepted="yes" time="4098248516">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="68401" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="4098755766">
+                </run>
+                <run accepted="no" time="4098798125">
+                </run>
+                <run accepted="no" time="4098828469">
+                </run>
+                <run accepted="no" time="4099260578">
+                </run>
+                <run accepted="yes" time="4099319766">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="68319" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4099175719">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="5" score="0">
+                <run accepted="no" time="4099732891">
+                </run>
+                <run accepted="no" time="4099802703">
+                </run>
+                <run accepted="no" time="4099983578">
+                </run>
+                <run accepted="no" time="4100205078">
+                </run>
+                <run accepted="no" time="4100215922">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.35" party="гр2 Евгений Иванов" alias="35" solved="3" penalty="70511" time="1408271828" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="23508" time="1408119626" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="200711379">
+                </run>
+                <run accepted="no" time="1405977309">
+                </run>
+                <run accepted="yes" time="1408119626">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="23571" time="1408271828" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="199551131">
+                </run>
+                <run accepted="no" time="200501713">
+                </run>
+                <run accepted="no" time="200828468">
+                </run>
+                <run accepted="no" time="201400863">
+                </run>
+                <run accepted="no" time="1406197802">
+                </run>
+                <run accepted="yes" time="1408271828">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="23432" time="1405938248" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="1405938248">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.39" party="гр2 Ярослав Оленин" alias="39" solved="2" penalty="6743" time="201741809" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="3362" time="201741809" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="201741809">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="3381" time="201695735" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="201651883">
+                </run>
+                <run accepted="yes" time="201695735">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.4" party="гр1 Амир Гизатуллин" alias="4" solved="2" penalty="43855" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="1809" time="108571547" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="108571547">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="42046" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="211243582">
+                </run>
+                <run accepted="no" time="2519594631">
+                </run>
+                <run accepted="yes" time="2520366020">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.49" party="гр3 Сергей Микеркин" alias="49" solved="2" penalty="61124" time="1833231638" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="30551" time="1831868932" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1831785756">
+                </run>
+                <run accepted="yes" time="1831868932">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="30573" time="1833231638" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="1832922136">
+                </run>
+                <run accepted="yes" time="1833231638">
+                </run>
+                <run accepted="no" time="1833384005">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="1833403601">
+                </run>
+                <run accepted="no" time="1836220418">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.20" party="Тест" alias="20" solved="1" penalty="216" time="12973638" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="216" time="12973638" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="12973638">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.55" party="гр4 Name 55" alias="55" solved="1" penalty="37721" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="37721" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2263270960">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.53" party="гр4 Name 53" alias="53" solved="1" penalty="37754" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="37754" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2261854890">
+                </run>
+                <run accepted="yes" time="2264078690">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="2264554368">
+                </run>
+                <run accepted="no" time="2264836472">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4646.17" party="гр5 Name 17" alias="17" solved="1" penalty="54962" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.aplusb" solved="0" penalty="54962" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3297760805">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.area-of-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="4" score="0">
+                <run accepted="no" time="3298223686">
+                </run>
+                <run accepted="no" time="3298329627">
+                </run>
+                <run accepted="no" time="3298432566">
+                </run>
+                <run accepted="no" time="3376025221">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.sum-of-two-dice" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.day-of-the-week" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.distance-between-points" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.five-random-values" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.spring-season" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.three-sort" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+    </contest>
+</standings>
