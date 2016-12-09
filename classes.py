@@ -1,3 +1,4 @@
+from operator import attrgetter
 
 
 def parse_array_of(arr, typ):
@@ -28,6 +29,7 @@ class Contest(object):
         self.problems = parse_array_of(challenge["problem"], Problem)
         # [Problem(**c) for c in challenge["problem"]]
         self.sessions = parse_array_of(session, Session)
+        self.sessions.sort(key=attrgetter("solved"), reverse=True)
         # [Session(**s) for s in session]
 
 
@@ -55,6 +57,8 @@ class Session(object):
         self.attempts = attempts
         self.score = score
         self.submitted_problems = parse_array_of(problem, SubmittedProblem)
+        self.solved = sum(
+            [problem.accepted for problem in self.submitted_problems])
         # [SubmittedProblem(**p) for p in problem]
 
 
