@@ -1,0 +1,66 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Standings{% endblock %}
+
+{% block styles %}
+{{super()}}
+	<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-inverse navbar-fixed-left">
+  <a class="navbar-brand" href="/">Результаты</a>
+  <ul class="nav navbar-nav">
+ 	{% for file in files %}
+		<li><a href="/showtable/{{file}}"> {{ file }} </a></li>
+	{% endfor %}
+  </ul>
+</div>
+{% endblock %}
+
+
+
+ {% block content %}
+ 	<div class="container">
+ 	{% if standings is not none %}
+		  <!-- Default panel contents -->
+		 <h1>{{standings.contest.name}}</h1>
+
+		 <div class="panel panel-default">
+		  <!-- Table -->
+		  <table class="table">
+		    <thead>
+		    	<td>№</td>
+		    	<td>Ф.И.О</td>
+		    	<td>сумма</td>
+		    	{% for problem in standings.contest.problems %}
+		    		<td>{{problem.alias}}</td>
+		    	{% endfor %}
+		    </thead>
+		 		{% set i = 1%}
+			  {% for session in standings.contest.sessions %}
+			  	<tr>
+			  		<td>{{ i }}</td>
+			  		{% set i = i + 1%}
+			  		<td>{{ session.username }}</td>
+			  		<td>{{ session.solved }}</td>
+			  		{% for problem in session.submitted_problems %}
+			  			{% if problem.attempts > 0 %}
+			  				{% set status = "+" if problem.accepted == 1 else "-" %}
+			  				<td status="{{ status }}">{{ status }} {{ problem.attempts }}</td>
+			  			{% else %}
+			  				<td >.</td>
+			  			{% endif %}
+			  		{% endfor %}
+			  	</tr>
+			  {% endfor %}
+		   </table>
+		  </div>
+	{% else %}
+		<h1>Результаты контестов</h1>
+		<div class="alert alert-info" role="alert">
+			Выберите констест в меню слева.
+		</div>
+	{% endif %}
+	</div>
+{% endblock %}
+
