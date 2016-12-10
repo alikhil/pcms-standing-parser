@@ -77,6 +77,11 @@ class SubmittedProblem(object):
         self.attempts = attempts
         self.score = score
         self.runs = parse_array_of(run, Run)
+        self.status = -attempts
+        if (self.accepted == 1):
+            self.status = "+" + (str(attempts) if attempts > 1 else "")
+        elif self.attempts == 0:
+            self.status = "."
 
 
 class Run(object):

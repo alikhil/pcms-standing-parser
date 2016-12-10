@@ -44,12 +44,7 @@
 			  		<td>{{ session.username }}</td>
 			  		<td>{{ session.solved }}</td>
 			  		{% for problem in session.submitted_problems %}
-			  			{% if problem.attempts > 0 %}
-			  				{% set status = "+" if problem.accepted == 1 else "-" %}
-			  				<td status="{{ status }}">{{ status }} {{ problem.attempts }}</td>
-			  			{% else %}
-			  				<td >.</td>
-			  			{% endif %}
+			  			<td status="{{ problem.status }}">{{ problem.status }}</td>
 			  		{% endfor %}
 			  	</tr>
 			  {% endfor %}
