@@ -33,7 +33,7 @@
 		    	<td>Ф.И.О</td>
 		    	<td>сумма</td>
 		    	{% for problem in standings.contest.problems %}
-		    		<td>{{problem.alias}}</td>
+		    		<td><span title="{{ problem.name }}">{{ problem.alias }}</span></td>
 		    	{% endfor %}
 		    </thead>
 		 		{% set i = 1%}
