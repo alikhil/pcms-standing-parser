@@ -1,4 +1,13 @@
 from operator import attrgetter
+from itertools import groupby
+
+
+def distinct(sequence):
+    seen = set()
+    for s in sequence:
+        if s not in seen:
+            seen.add(s)
+    return seen
 
 
 def parse_array_of(arr, typ):
@@ -91,9 +100,40 @@ class Run(object):
         self.time = time
 
 
+class TotalUser(object):
+    """ Contains information about all contests of user"""
+
+    def __init__(self, group):
+        # Take first argument of tuple - name
+        self.name = group[0]
+        elems = list(group[1])
+        self.contestSolvedMap = {}
+        self.solved = 0
+        # second tuple element is count of solved problems in that contest
+        # thired tuple element is name of contest
+        for elem in elems:
+            self.contestSolvedMap[elem[2]] = elem[1]
+            self.solved += int(elem[1])
+
+
 class TotalStandings(object):
     """ Contains information about all concatenated
         contests and list of participants."""
 
-    def __init__(self):
-        pass
+    def __init__(self, standings):
+        self.tables = standings
+        participants = [
+            (session.username, session.solved, table.contest.name)
+            for table in standings
+            for session in table.contest.sessions]
+
+        keyFunc = lambda f: f[0]
+        grouped = groupby(sorted(participants, key=keyFunc), keyFunc)
+        totalUsers = [TotalUser(group) for group in grouped]
+        self.participants = sorted(
+            totalUsers, key=attrgetter("solved"), reverse=True)
+
+
+def printGroupedData(groupedData):
+    for k, v in groupedData:
+        print("Group {} {}".format(k, list(v)))
