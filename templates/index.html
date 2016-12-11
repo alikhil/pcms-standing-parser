@@ -27,7 +27,7 @@
 
 		 <div class="panel panel-default">
 		  <!-- Table -->
-		  <table class="table">
+		  <table class="table table-striped">
 		    <thead>
 		    	<td>№</td>
 		    	<td>Ф.И.О</td>
@@ -50,6 +50,33 @@
 			  {% endfor %}
 		   </table>
 		  </div>
+
+	{% elif totalStandings is not none %}
+		<h1>Итоговая таблица</h1>
+		<div class="panel panel-default">
+			<table class="table table-striped">
+				<thead>
+					<td>№</td>
+					<td>Ф.И.О</td>
+		    		<td>сумма</td>
+		    		{% for table in totalStandings.tables %}
+		    			<td>{{ table.contest.name }}</td>
+		    		{% endfor %}
+				</thead>
+				{% set i = 1%}
+				{% for participant in totalStandings.participants %}
+					<tr>
+						<td>{{ i }}</td>
+				  		{% set i = i + 1%}
+				  		<td>{{ participant.name }}</td>
+				  		<td>{{ participant.solved }}
+				  		{% for table in totalStandings.tables %}
+				  			<td>{{ participant.contestSolvedMap[table.contest.name] if table.contest.name in participant.contestSolvedMap else 0 }}</td>
+				  		{% endfor %}
+					</tr>
+				{% endfor %}
+			</table>
+		</div>
 	{% else %}
 		<h1>Результаты контестов</h1>
 		<div class="alert alert-info" role="alert">
