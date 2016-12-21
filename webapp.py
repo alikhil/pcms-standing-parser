@@ -36,13 +36,17 @@ def showtable(table):
 
 @app.route("/submissions", methods=["GET"])
 def show_submissions():
+    page_limit = 25
     page_p = request.args.get("page")
     page = 1 if page_p is None else int(page_p)
+    range_p = request.args.get("range")
 
     files = getFiles("./samples")
     totalStandings = TotalStandings(
         [parse_file("./samples/" + file) for file in files])
-    submissions = get_submissions(totalStandings)[(page - 1) * 50:50 * page]
+    submissions = get_submissions(
+        totalStandings, range_p)[(page - 1) * page_limit:page_limit * page]
+
     return render_template(
         "submissions.html", submissions=submissions, page=page)
 
