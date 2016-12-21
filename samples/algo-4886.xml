@@ -1,0 +1,1432 @@
+<?xml version="1.0" ?>
+<standings>
+    <contest name="08 Функции" time="7007931063" length="360000000000" status="running" frozen="no">
+        <challenge>
+            <problem alias="A" name="Минимум 4 чисел"/>
+            <problem alias="B" name="Частый"/>
+            <problem alias="C" name="Расстояние Хэмминга"/>
+            <problem alias="D" name="Градусы Фаренгейта в Градусы Цельсия"/>
+            <problem alias="E" name="Периметр треугольника"/>
+            <problem alias="F" name="Возведение в степень"/>
+            <problem alias="G" name="Ввод вывод массива"/>
+            <problem alias="H" name="Ввод и вывод массива - 2"/>
+            <problem alias="I" name="API обработки одномерного массива"/>
+            <problem alias="J" name="Переворот двумерного массива"/>
+            <problem alias="K" name="RGB и CMYK"/>
+        </challenge>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.11" party="гр1 Сергей Мильграм" alias="11" solved="11" penalty="1115922" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101240" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6074454467">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101241" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6074464939">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="101241" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6074473780">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="101308" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6074482652">
+                </run>
+                <run accepted="no" time="6074657596">
+                </run>
+                <run accepted="no" time="6074687991">
+                </run>
+                <run accepted="yes" time="6074888192">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="101293" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6075921942">
+                </run>
+                <run accepted="yes" time="6076400755">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="101278" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6076706931">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="101284" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6077073466">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="101292" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6077540108">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="101408" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6079012546">
+                </run>
+                <run accepted="no" time="6079081125">
+                </run>
+                <run accepted="no" time="6079415352">
+                </run>
+                <run accepted="no" time="6079534359">
+                </run>
+                <run accepted="yes" time="6079713243">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="102141" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6128483819">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="102196" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6129036688">
+                </run>
+                <run accepted="no" time="6129173727">
+                </run>
+                <run accepted="yes" time="6129404721">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.4" party="гр1 Амир Гизатуллин" alias="4" solved="11" penalty="1137868" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101426" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6083376462">
+                </run>
+                <run accepted="yes" time="6084414838">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101457" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6085239269">
+                </run>
+                <run accepted="yes" time="6086244492">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="101436" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6086178171">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="101493" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6089582450">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="101519" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6091185842">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="101665" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="6092225038">
+                </run>
+                <run accepted="no" time="6092331244">
+                </run>
+                <run accepted="no" time="6093101583">
+                </run>
+                <run accepted="no" time="6093211414">
+                </run>
+                <run accepted="no" time="6093344537">
+                </run>
+                <run accepted="yes" time="6093911242">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="101582" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6094957573">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="105716" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6156226071">
+                </run>
+                <run accepted="yes" time="6341793586">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="107154" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6345986969">
+                </run>
+                <run accepted="no" time="6422490315">
+                </run>
+                <run accepted="no" time="6423643632">
+                </run>
+                <run accepted="no" time="6424180447">
+                </run>
+                <run accepted="yes" time="6424473041">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="107168" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6430109176">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="107252" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6431730169">
+                </run>
+                <run accepted="no" time="6432139391">
+                </run>
+                <run accepted="yes" time="6432772639">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.32" party="гр2 Адель Ибрагимов" alias="32" solved="11" penalty="1178178" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104069" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6244170952">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104072" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6244329232">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="104073" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6244432318">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="111247" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6244982879">
+                </run>
+                <run accepted="no" time="6245033060">
+                </run>
+                <run accepted="no" time="6669959263">
+                </run>
+                <run accepted="no" time="6669991121">
+                </run>
+                <run accepted="yes" time="6670029851">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="104101" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6246065667">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="104109" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6246595217">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="104138" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6248306528">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="114254" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6432359538">
+                </run>
+                <run accepted="no" time="6432863516">
+                </run>
+                <run accepted="yes" time="6852886640">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="104179" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6249461798">
+                </run>
+                <run accepted="yes" time="6249587820">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="111066" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6663987787">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="112870" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6767724261">
+                </run>
+                <run accepted="no" time="6769049875">
+                </run>
+                <run accepted="yes" time="6769818674">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.38" party="гр2 Максим Касакин" alias="38" solved="10" penalty="1072331" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104124" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6244279680">
+                </run>
+                <run accepted="no" time="6244961479">
+                </run>
+                <run accepted="yes" time="6245048871">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104186" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6245864702">
+                </run>
+                <run accepted="no" time="6245939296">
+                </run>
+                <run accepted="no" time="6246090905">
+                </run>
+                <run accepted="no" time="6246308717">
+                </run>
+                <run accepted="yes" time="6246374987">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="104172" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6250364956">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="107164" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="6429855378">
+                </run>
+                <run accepted="yes" time="6429885553">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="104145" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6248732056">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="104151" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6249105157">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="107195" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="6431730072">
+                </run>
+                <run accepted="yes" time="6431747302">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6432758633">
+                </run>
+                <run accepted="no" time="6432890788">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="114385" time="2147483647" accepted="1" attempts="9" score="0">
+                <run accepted="no" time="6670045309">
+                </run>
+                <run accepted="no" time="6759797174">
+                </run>
+                <run accepted="no" time="6759973768">
+                </run>
+                <run accepted="no" time="6760387409">
+                </run>
+                <run accepted="no" time="6847988805">
+                </run>
+                <run accepted="no" time="6848990812">
+                </run>
+                <run accepted="no" time="6849175610">
+                </run>
+                <run accepted="no" time="6849263074">
+                </run>
+                <run accepted="no" time="6849515939">
+                </run>
+                <run accepted="yes" time="6853524400">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="108568" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6511414817">
+                </run>
+                <run accepted="no" time="6511470377">
+                </run>
+                <run accepted="no" time="6511551068">
+                </run>
+                <run accepted="yes" time="6511689613">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="114241" time="2147483647" accepted="1" attempts="7" score="0">
+                <run accepted="no" time="6692750852">
+                </run>
+                <run accepted="no" time="6692772376">
+                </run>
+                <run accepted="no" time="6692826590">
+                </run>
+                <run accepted="no" time="6692924588">
+                </run>
+                <run accepted="no" time="6693652387">
+                </run>
+                <run accepted="no" time="6757870987">
+                </run>
+                <run accepted="no" time="6757887830">
+                </run>
+                <run accepted="no" time="6758151112">
+                </run>
+                <run accepted="yes" time="6847291718">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.1" party="гр1 Раиль Бариев" alias="1" solved="8" penalty="833409" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102344" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6134331185">
+                </run>
+                <run accepted="no" time="6134680682">
+                </run>
+                <run accepted="no" time="6134858922">
+                </run>
+                <run accepted="no" time="6135361781">
+                </run>
+                <run accepted="yes" time="6137089659">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102300" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6138005919">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102348" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6140921429">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="102382" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6142931819">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="102786" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6167191592">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="4" score="0">
+                <run accepted="no" time="6156007167">
+                </run>
+                <run accepted="no" time="6162651018">
+                </run>
+                <run accepted="no" time="6686174780">
+                </run>
+                <run accepted="no" time="6686248854">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="102737" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6164263251">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="107013" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6420836160">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6422106756">
+                </run>
+                <run accepted="no" time="6423512366">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6512169585">
+                </run>
+                <run accepted="no" time="6514040137">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="111499" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6688080673">
+                </run>
+                <run accepted="yes" time="6688797740">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.33" party="гр2 Булат Галимов" alias="33" solved="8" penalty="840135" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104116" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6082856974">
+                </run>
+                <run accepted="yes" time="6245805528">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104109" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6246557992">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="111655" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6699344697">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="101460" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6087613790">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="101486" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6089193749">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="101431" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6085862869">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="104149" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6248952040">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="4" score="0">
+                <run accepted="no" time="6595433089">
+                </run>
+                <run accepted="no" time="6595846111">
+                </run>
+                <run accepted="no" time="6595965832">
+                </run>
+                <run accepted="no" time="6596178295">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="111729" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6694079692">
+                </run>
+                <run accepted="no" time="6694792023">
+                </run>
+                <run accepted="no" time="6695443593">
+                </run>
+                <run accepted="no" time="6695969739">
+                </run>
+                <run accepted="yes" time="6698945179">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.22" party="гр3 Рената Шакирова" alias="22" solved="6" penalty="616868" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101119" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6067160490">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101119" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6067196609">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="101120" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6067218435">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="101134" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6068086467">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="101177" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6069340459">
+                </run>
+                <run accepted="yes" time="6069456425">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111199" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6670684821">
+                </run>
+                <run accepted="yes" time="6670764319">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.2" party="гр1 Алия Габдуллина" alias="2" solved="6" penalty="619045" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102591" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6154245678">
+                </run>
+                <run accepted="yes" time="6154274038">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102602" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6154946525">
+                </run>
+                <run accepted="yes" time="6154974298">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102591" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6155515806">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="102682" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="6155854842">
+                </run>
+                <run accepted="no" time="6155887657">
+                </run>
+                <run accepted="no" time="6155964782">
+                </run>
+                <run accepted="no" time="6156028684">
+                </run>
+                <run accepted="yes" time="6156133753">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="102815" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6168956094">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="7" score="0">
+                <run accepted="no" time="6169531142">
+                </run>
+                <run accepted="no" time="6169775695">
+                </run>
+                <run accepted="no" time="6169898287">
+                </run>
+                <run accepted="no" time="6170058202">
+                </run>
+                <run accepted="no" time="6257856731">
+                </run>
+                <run accepted="no" time="6337961359">
+                </run>
+                <run accepted="no" time="6754242971">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="105764" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6341681179">
+                </run>
+                <run accepted="no" time="6341818417">
+                </run>
+                <run accepted="no" time="6341913521">
+                </run>
+                <run accepted="yes" time="6342276129">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.10" party="гр1 Юрий Костин" alias="10" solved="6" penalty="628023" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102633" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6154185035">
+                </run>
+                <run accepted="no" time="6154293632">
+                </run>
+                <run accepted="no" time="6154316015">
+                </run>
+                <run accepted="yes" time="6154392538">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102582" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6154949875">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102598" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6155894938">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="105821" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6346345044">
+                </run>
+                <run accepted="yes" time="6348063317">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="107285" time="2147483647" accepted="1" attempts="12" score="0">
+                <run accepted="no" time="6348826034">
+                </run>
+                <run accepted="no" time="6348889390">
+                </run>
+                <run accepted="no" time="6348943192">
+                </run>
+                <run accepted="no" time="6420703042">
+                </run>
+                <run accepted="no" time="6421262744">
+                </run>
+                <run accepted="no" time="6421308809">
+                </run>
+                <run accepted="no" time="6421760187">
+                </run>
+                <run accepted="no" time="6421818907">
+                </run>
+                <run accepted="no" time="6422053531">
+                </run>
+                <run accepted="no" time="6423111984">
+                </run>
+                <run accepted="no" time="6423307845">
+                </run>
+                <run accepted="no" time="6423857984">
+                </run>
+                <run accepted="yes" time="6423942839">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="3" score="0">
+                <run accepted="no" time="6424687280">
+                </run>
+                <run accepted="no" time="6424833172">
+                </run>
+                <run accepted="no" time="6424871977">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="107104" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6426244099">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.21" party="гр3 Павел Капитов " alias="21" solved="6" penalty="639252" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101217" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6067996736">
+                </run>
+                <run accepted="no" time="6068260256">
+                </run>
+                <run accepted="no" time="6069007643">
+                </run>
+                <run accepted="yes" time="6069451813">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101178" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6068279202">
+                </run>
+                <run accepted="yes" time="6069511986">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="108532" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6510723927">
+                </run>
+                <run accepted="yes" time="6510760538">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="6" score="0">
+                <run accepted="no" time="6068481992">
+                </run>
+                <run accepted="no" time="6068500256">
+                </run>
+                <run accepted="no" time="6068559478">
+                </run>
+                <run accepted="no" time="6068640986">
+                </run>
+                <run accepted="no" time="6068667729">
+                </run>
+                <run accepted="no" time="6512175028">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="108546" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6511523936">
+                </run>
+                <run accepted="yes" time="6511608375">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="108545" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6512735587">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111234" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="6673266789">
+                </run>
+                <run accepted="no" time="6673721763">
+                </run>
+                <run accepted="no" time="6673841846">
+                </run>
+                <run accepted="yes" time="6674041326">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6674659158">
+                </run>
+                <run accepted="no" time="6674903274">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.42" party="гр2 Ильнур Идиатуллов" alias="42" solved="6" penalty="654923" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104079" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6244766373">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104088" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6245301728">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="104226" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6245890623">
+                </run>
+                <run accepted="no" time="6246040281">
+                </run>
+                <run accepted="no" time="6249925285">
+                </run>
+                <run accepted="yes" time="6249982515">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="114174" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6850459860">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="114178" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6850704001">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="114178" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6249670388">
+                </run>
+                <run accepted="yes" time="6849489729">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.12" party="гр1 Розалина Миргалимова" alias="12" solved="5" penalty="520285" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102576" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6154564130">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102582" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6154939362">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102593" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6155622572">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="102602" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6156153707">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="109932" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6595971752">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="4" score="0">
+                <run accepted="no" time="6258308408">
+                </run>
+                <run accepted="no" time="6258387468">
+                </run>
+                <run accepted="no" time="6258531062">
+                </run>
+                <run accepted="no" time="6258911629">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6597149556">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.23" party="гр3 Сергей Германов" alias="23" solved="5" penalty="538886" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101163" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6067401982">
+                </run>
+                <run accepted="yes" time="6068606681">
+                </run>
+                <run accepted="no" time="6659877563">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101181" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6069651827">
+                </run>
+                <run accepted="yes" time="6069686297">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="109803" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6588207291">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="111020" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6659921287">
+                </run>
+                <run accepted="yes" time="6660004841">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="115719" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6943172270">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.26" party="гр3 Камиль Туктагулов" alias="26" solved="5" penalty="540487" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101160" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6067264320">
+                </run>
+                <run accepted="yes" time="6068419681">
+                </run>
+                <run accepted="no" time="6069927153">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101165" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6069942854">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="111235" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6674148253">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="115681" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6940916306">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111246" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6674787443">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.31" party="гр2 Анатолий Антонов" alias="31" solved="5" penalty="540703" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104088" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6245314673">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="114042" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6842575728">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="104122" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6246084004">
+                </run>
+                <run accepted="yes" time="6246123609">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="114237" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6854237337">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="3" score="0">
+                <run accepted="no" time="6853942785">
+                </run>
+                <run accepted="no" time="6854105972">
+                </run>
+                <run accepted="no" time="6854184209">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="104214" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6249834552">
+                </run>
+                <run accepted="no" time="6250218509">
+                </run>
+                <run accepted="yes" time="6250465702">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.37" party="гр2 Полина Миронова" alias="37" solved="4" penalty="416580" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104100" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6244494431">
+                </run>
+                <run accepted="yes" time="6244807876">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104129" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6246125939">
+                </run>
+                <run accepted="yes" time="6246542282">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="104143" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6248627762">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="104208" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6249955338">
+                </run>
+                <run accepted="no" time="6250080521">
+                </run>
+                <run accepted="yes" time="6250106908">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.36" party="гр2 Кирилл Титаренко" alias="36" solved="4" penalty="426618" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104139" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6245904043">
+                </run>
+                <run accepted="no" time="6245945931">
+                </run>
+                <run accepted="yes" time="6245982832">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="104164" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6249861924">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="104153" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6249201973">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6250631254">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="114162" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="6849652981">
+                </run>
+                <run accepted="yes" time="6849738997">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.28" party="гр3 Руслан Русских" alias="28" solved="4" penalty="434639" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="111119" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6667188945">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6669061996">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="101209" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6067795914">
+                </run>
+                <run accepted="no" time="6068603301">
+                </run>
+                <run accepted="no" time="6068824491">
+                </run>
+                <run accepted="yes" time="6068958594">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="111114" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6666867444">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111197" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6671841660">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.24" party="гр3 Марсель Кузнецов" alias="24" solved="3" penalty="303470" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101162" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6068151313">
+                </run>
+                <run accepted="yes" time="6068525597">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="101133" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6067998346">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="101175" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6069224692">
+                </run>
+                <run accepted="yes" time="6069309062">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6070202968">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.48" party="гр3 Николай Яшин" alias="48" solved="3" penalty="303532" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101202" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6067581758">
+                </run>
+                <run accepted="no" time="6068181066">
+                </run>
+                <run accepted="no" time="6068435387">
+                </run>
+                <run accepted="yes" time="6068528857">
+                </run>
+                <run accepted="no" time="6068689843">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="101166" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6068710255">
+                </run>
+                <run accepted="yes" time="6068781749">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="101164" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6069852668">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6669553277">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6672556829">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.6" party="гр1 Камиль Исхаков" alias="6" solved="3" penalty="307667" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102557" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6150112539">
+                </run>
+                <run accepted="no" time="6150527981">
+                </run>
+                <run accepted="yes" time="6151027242">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102561" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6152186202">
+                </run>
+                <run accepted="yes" time="6152466339">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102549" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="6152929237">
+                </run>
+                <run accepted="yes" time="6152953617">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6154334381">
+                </run>
+                <run accepted="no" time="6154377403">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.14" party="гр1 Камиль Шарипов" alias="14" solved="3" penalty="307773" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102572" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6154354807">
+                </run>
+                <run accepted="yes" time="6154355047">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="102605" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6154827791">
+                </run>
+                <run accepted="yes" time="6155115528">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="102596" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6155812381">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.44" party="гр2 Илья Белов" alias="44" solved="2" penalty="208300" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104138" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6248308928">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="104162" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6249726428">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.27" party="гр3 Даниил Паликарпов" alias="27" solved="2" penalty="212449" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101209" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="6067408752">
+                </run>
+                <run accepted="no" time="6067866775">
+                </run>
+                <run accepted="no" time="6067978922">
+                </run>
+                <run accepted="no" time="6068952823">
+                </run>
+                <run accepted="yes" time="6068982270">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111240" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6674403966">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.40" party="гр2 Руфат Шарафутдинов" alias="40" solved="2" penalty="225944" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6246346693">
+                </run>
+                <run accepted="no" time="6248414787">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="112972" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6778325924">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="112972" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6778341218">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.29" party="гр3 Руслан Кашапов" alias="29" solved="1" penalty="101195" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="101195" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="6067189132">
+                </run>
+                <run accepted="no" time="6067205541">
+                </run>
+                <run accepted="no" time="6067894517">
+                </run>
+                <run accepted="yes" time="6069310492">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.7" party="гр1 Александр Кандрашкин" alias="7" solved="1" penalty="102619" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="102619" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6154093208">
+                </run>
+                <run accepted="yes" time="6155981363">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.35" party="гр2 Евгений Иванов" alias="35" solved="1" penalty="104158" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="104158" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6249502718">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.47" party="гр3 Никита Белкин" alias="47" solved="1" penalty="111237" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+                <run accepted="no" time="6070095648">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="111237" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="6672707476">
+                </run>
+                <run accepted="yes" time="6673033441">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4886.9" party="гр1 Виталий Кольцов" alias="9" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.min-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6155080382">
+                </run>
+                <run accepted="no" time="6155781672">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.elections-funcs" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.hamming-distance" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.celsius-fahrenheit-conv" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.triangle-perimeter" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.fast-pow" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.read-write-array-functions" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.read-write-boolean2d" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.1d-array-api" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.transpose-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.rgb-to-cmyk" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+    </contest>
+</standings>

@@ -1,0 +1,1528 @@
+<?xml version="1.0" ?>
+<standings>
+    <contest name="05 Массивы-2" time="7007931063" length="360000000000" status="running" frozen="no">
+        <challenge>
+            <problem alias="A" name="Выручка театра"/>
+            <problem alias="B" name="Обороноспособность"/>
+            <problem alias="C" name="Симметричная ли матрица?"/>
+            <problem alias="D" name="Координаты соседей"/>
+            <problem alias="E" name="Анализ местности"/>
+            <problem alias="F" name="Сапер"/>
+            <problem alias="G" name="Треугольник Паскаля"/>
+            <problem alias="H" name="Коммутативность"/>
+            <problem alias="I" name="Дважды стохастическая матрица"/>
+            <problem alias="J" name="Четыре в ряд"/>
+            <problem alias="K" name="Судоку"/>
+            <problem alias="L" name="Магический квадрат"/>
+            <problem alias="M" name="Побочная диагональ"/>
+            <problem alias="N" name="Состязания"/>
+            <problem alias="O" name="Заполнение змейкой"/>
+            <problem alias="P" name="Поворот"/>
+            <problem alias="Q" name="Квадрат"/>
+            <problem alias="R" name="Состязания-2"/>
+            <problem alias="S" name="Заполнение спиралью"/>
+        </challenge>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.11" party="гр1 Сергей Мильграм" alias="11" solved="19" penalty="957389" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="47908" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2874524928">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="47914" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2874868040">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="47919" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2875174847">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="47949" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2875586525">
+                </run>
+                <run accepted="yes" time="2875762860">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="47937" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2876237499">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="47979" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2878768258">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="47999" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2879954051">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="49060" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2943633069">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="49074" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2944440509">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="52362" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="3043512098">
+                </run>
+                <run accepted="no" time="3043540181">
+                </run>
+                <run accepted="no" time="3043540447">
+                </run>
+                <run accepted="no" time="3043926399">
+                </run>
+                <run accepted="yes" time="3138164470">
+                </run>
+                <run accepted="yes" time="3715066249">
+                </run>
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="50841" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3050490799">
+                </run>
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="52340" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3140454966">
+                </run>
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="50759" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3045579921">
+                </run>
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="50765" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3045921547">
+                </run>
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="50776" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3046594033">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="50793" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3047580805">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="61935" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3716140506">
+                </run>
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="50801" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3048112559">
+                </run>
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="52278" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3136730804">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.10" party="гр1 Юрий Костин" alias="10" solved="13" penalty="701256" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="48928" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2935730139">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="49002" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="2935940455">
+                </run>
+                <run accepted="no" time="2936047271">
+                </run>
+                <run accepted="no" time="2936284654">
+                </run>
+                <run accepted="yes" time="2936547717">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="48946" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2936779753">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="48962" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2937776586">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="49058" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2943497613">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="49489" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2969380890">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="57754" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3465270423">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="73951" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4437072850">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="4748026383">
+                </run>
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="50815" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3047641526">
+                </run>
+                <run accepted="yes" time="3047720018">
+                </run>
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="50840" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3050458212">
+                </run>
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="57815" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3468941736">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="57857" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3471440906">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="57839" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3470369045">
+                </run>
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.32" party="гр2 Адель Ибрагимов" alias="32" solved="13" penalty="858521" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="49372" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2962374332">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="49384" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2963085953">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="49392" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2963579117">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="63929" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="2964845237">
+                </run>
+                <run accepted="no" time="2964937727">
+                </run>
+                <run accepted="no" time="3828146956">
+                </run>
+                <run accepted="no" time="3829723322">
+                </run>
+                <run accepted="no" time="3829731153">
+                </run>
+                <run accepted="yes" time="3829773937">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="49447" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2965491899">
+                </run>
+                <run accepted="yes" time="2965649899">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="53784" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="3221321327">
+                </run>
+                <run accepted="no" time="3221386596">
+                </run>
+                <run accepted="no" time="3221523282">
+                </run>
+                <run accepted="no" time="3222221257">
+                </run>
+                <run accepted="yes" time="3222265639">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="73857" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4431427977">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="73902" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="3222780271">
+                </run>
+                <run accepted="no" time="3223220024">
+                </run>
+                <run accepted="no" time="3223397932">
+                </run>
+                <run accepted="no" time="3224448576">
+                </run>
+                <run accepted="yes" time="4429378366">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="2974470183">
+                </run>
+                <run accepted="no" time="2975171939">
+                </run>
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="78235" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4694140004">
+                </run>
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="78146" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4688767396">
+                </run>
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="78171" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4690276895">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="78181" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4690886541">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="82721" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="4691740571">
+                </run>
+                <run accepted="no" time="4692818375">
+                </run>
+                <run accepted="no" time="4694176696">
+                </run>
+                <run accepted="no" time="4958057263">
+                </run>
+                <run accepted="yes" time="4958508222">
+                </run>
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.42" party="гр2 Ильнур Идиатуллов" alias="42" solved="10" penalty="640957" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="63814" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="3824611489">
+                </run>
+                <run accepted="no" time="3825027429">
+                </run>
+                <run accepted="no" time="3825073232">
+                </run>
+                <run accepted="yes" time="3825258392">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="53681" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3220902933">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="63814" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3827321247">
+                </run>
+                <run accepted="yes" time="3827681971">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="63874" time="2147483647" accepted="1" attempts="4" score="0">
+                <run accepted="no" time="3828619235">
+                </run>
+                <run accepted="no" time="3828781191">
+                </run>
+                <run accepted="no" time="3828825026">
+                </run>
+                <run accepted="yes" time="3828846488">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="63764" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3825876155">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="66785" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3830843886">
+                </run>
+                <run accepted="yes" time="4005950694">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="53734" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3222756328">
+                </run>
+                <run accepted="yes" time="3222867706">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="73831" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4429883053">
+                </run>
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="73822" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4429335791">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="63838" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3830288681">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+                <run accepted="no" time="5642092370">
+                </run>
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.12" party="гр1 Розалина Миргалимова" alias="12" solved="9" penalty="672627" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="57430" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3444223973">
+                </run>
+                <run accepted="no" time="3444295572">
+                </run>
+                <run accepted="yes" time="3444608357">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="72100" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4324659827">
+                </run>
+                <run accepted="yes" time="4324801548">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="72102" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="3444767957">
+                </run>
+                <run accepted="no" time="3444768035">
+                </run>
+                <run accepted="yes" time="4323739317">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="72088" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4325310603">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="76700" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4602055647">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="76794" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4607660554">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="101277" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6076629008">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="6595292849">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="72066" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4323965994">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="72070" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4324222918">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.31" party="гр2 Анатолий Антонов" alias="31" solved="9" penalty="694415" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="73820" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4429200155">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="73848" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4429499203">
+                </run>
+                <run accepted="yes" time="4429702619">
+                </run>
+                <run accepted="no" time="4430243257">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="73837" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4430258231">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="73847" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4430842860">
+                </run>
+                <run accepted="no" time="4432197267">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="73870" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4432209244">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="73901" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4434114718">
+                </run>
+                <run accepted="yes" time="4434298002">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="83755" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="5023976854">
+                </run>
+                <run accepted="yes" time="5024110323">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="83760" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="5025627843">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="83777" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="5026639189">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.2" party="гр1 Алия Габдуллина" alias="2" solved="7" penalty="396916" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="44710" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2682641725">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="43761" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2625679455">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="43765" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2625946859">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="71329" time="2147483647" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="2707935432">
+                </run>
+                <run accepted="no" time="3147326263">
+                </run>
+                <run accepted="no" time="3147439893">
+                </run>
+                <run accepted="no" time="4270881238">
+                </run>
+                <run accepted="no" time="4270958475">
+                </run>
+                <run accepted="no" time="4271038340">
+                </run>
+                <run accepted="no" time="4271103463">
+                </run>
+                <run accepted="yes" time="4271340821">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="74079" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4444792534">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="2626225325">
+                </run>
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="75481" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4528919331">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="43791" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2627484308">
+                </run>
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.24" party="гр3 Марсель Кузнецов" alias="24" solved="7" penalty="521890" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="72018" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4321137050">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="72024" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4321446730">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="72053" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4321709832">
+                </run>
+                <run accepted="yes" time="4321983370">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="72085" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4323768986">
+                </run>
+                <run accepted="yes" time="4323917386">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="72074" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4324490895">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="81016" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="4327220312">
+                </run>
+                <run accepted="no" time="4327720424">
+                </run>
+                <run accepted="no" time="4832613902">
+                </run>
+                <run accepted="no" time="4853132814">
+                </run>
+                <run accepted="no" time="4853162033">
+                </run>
+                <run accepted="yes" time="4854975361">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="80620" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4835873938">
+                </run>
+                <run accepted="yes" time="4836007280">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.9" party="гр1 Виталий Кольцов" alias="9" solved="6" penalty="297024" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="49466" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2968008124">
+                </run>
+                <run accepted="no" time="2968871345">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="49505" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2968883125">
+                </run>
+                <run accepted="yes" time="2969154020">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="49491" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2969511421">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="49500" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2970002124">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="49511" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2970672175">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="49551" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="2973081051">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.22" party="гр3 Рената Шакирова" alias="22" solved="6" penalty="425277" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="70834" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4250091055">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="70844" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4250694532">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="70878" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4252736285">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="70890" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4252077629">
+                </run>
+                <run accepted="yes" time="4252230614">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="70903" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4254235560">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="70928" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4255729217">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.38" party="гр2 Максим Касакин" alias="38" solved="6" penalty="432505" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="73788" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4427323348">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="64020" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="3839982961">
+                </run>
+                <run accepted="yes" time="3840023132">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="64023" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="no" time="3841393890">
+                </run>
+                <run accepted="yes" time="3841428544">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="82918" time="2147483647" accepted="1" attempts="8" score="0">
+                <run accepted="no" time="4432026708">
+                </run>
+                <run accepted="no" time="4432314047">
+                </run>
+                <run accepted="no" time="4432588375">
+                </run>
+                <run accepted="no" time="4956223853">
+                </run>
+                <run accepted="no" time="4956298902">
+                </run>
+                <run accepted="no" time="4958717507">
+                </run>
+                <run accepted="no" time="4966570038">
+                </run>
+                <run accepted="no" time="4966631574">
+                </run>
+                <run accepted="yes" time="4966694744">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="73850" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4431002575">
+                </run>
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="73906" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4434381646">
+                </run>
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+                <run accepted="no" time="4958653201">
+                </run>
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.40" party="гр2 Руфат Шарафутдинов" alias="40" solved="6" penalty="469583" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="73849" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4429694980">
+                </run>
+                <run accepted="yes" time="4429767288">
+                </run>
+                <run accepted="no" time="4434099796">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="73876" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4431116456">
+                </run>
+                <run accepted="yes" time="4431410224">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="73902" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4434151870">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="82591" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4955489335">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="82638" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4958314514">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="82727" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="4435346449">
+                </run>
+                <run accepted="no" time="4844908007">
+                </run>
+                <run accepted="no" time="4845167963">
+                </run>
+                <run accepted="no" time="4957179169">
+                </run>
+                <run accepted="yes" time="4958857944">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.1" party="гр1 Раиль Бариев" alias="1" solved="5" penalty="414644" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="72093" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="4323120331">
+                </run>
+                <run accepted="no" time="4323156860">
+                </run>
+                <run accepted="yes" time="4323193942">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="72067" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4324054123">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="72112" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4326722473">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="4331325837">
+                </run>
+                <run accepted="no" time="4954814639">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="97070" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="5824224636">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="101302" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6078121898">
+                </run>
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.28" party="гр3 Руслан Русских" alias="28" solved="4" penalty="292346" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="70887" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4253278678">
+                </run>
+                <run accepted="no" time="4773990341">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="70911" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4254706126">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="70934" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4256053624">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="4514439416">
+                </run>
+                <run accepted="no" time="4774034512">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="79614" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4776844351">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="4780937652">
+                </run>
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.21" party="гр3 Павел Капитов " alias="21" solved="4" penalty="298604" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="71039" time="2147483647" accepted="1" attempts="6" score="0">
+                <run accepted="no" time="4252177489">
+                </run>
+                <run accepted="no" time="4253203470">
+                </run>
+                <run accepted="no" time="4254107169">
+                </run>
+                <run accepted="no" time="4256258999">
+                </run>
+                <run accepted="no" time="4256316608">
+                </run>
+                <run accepted="yes" time="4256397077">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="75436" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4252431864">
+                </run>
+                <run accepted="yes" time="4525019567">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="75458" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="4253834152">
+                </run>
+                <run accepted="no" time="4253989528">
+                </run>
+                <run accepted="yes" time="4525116286">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="4254727547">
+                </run>
+                <run accepted="no" time="4525189864">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="76671" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4600308897">
+                </run>
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="4860347341">
+                </run>
+                <run accepted="no" time="4860385210">
+                </run>
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.14" party="гр1 Камиль Шарипов" alias="14" solved="3" penalty="185325" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="61766" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3705990838">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="61776" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3706601798">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="61783" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3707017062">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="3709625271">
+                </run>
+                <run accepted="no" time="3709854402">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.36" party="гр2 Кирилл Титаренко" alias="36" solved="3" penalty="221573" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="73849" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4430970096">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="73857" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4431464728">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="73867" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4432048790">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.23" party="гр3 Сергей Германов" alias="23" solved="3" penalty="225846" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="76712" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4602762558">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="70932" time="2147483647" accepted="1" attempts="5" score="0">
+                <run accepted="no" time="3215020273">
+                </run>
+                <run accepted="no" time="4249552925">
+                </run>
+                <run accepted="no" time="4249633988">
+                </run>
+                <run accepted="no" time="4250152696">
+                </run>
+                <run accepted="yes" time="4251134941">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="78202" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4692169214">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.26" party="гр3 Камиль Туктагулов" alias="26" solved="3" penalty="227213" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="75414" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4524885212">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="70859" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="4251579082">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="80940" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4855013567">
+                </run>
+                <run accepted="yes" time="4855248849">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="5129758165">
+                </run>
+                <run accepted="no" time="5130265825">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.4" party="гр1 Амир Гизатуллин" alias="4" solved="3" penalty="325928" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="108638" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6518313751">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="108644" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6518653849">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="108646" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="6518800466">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="2" score="0">
+                <run accepted="no" time="6521922115">
+                </run>
+                <run accepted="no" time="6587239094">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.6" party="гр1 Камиль Исхаков" alias="6" solved="2" penalty="119783" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="3466002955">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="57781" time="2147483647" accepted="1" attempts="1" score="0">
+                <run accepted="yes" time="3466883416">
+                </run>
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="62002" time="2147483647" accepted="1" attempts="3" score="0">
+                <run accepted="no" time="3716715730">
+                </run>
+                <run accepted="no" time="3716730289">
+                </run>
+                <run accepted="no" time="3716924800">
+                </run>
+                <run accepted="yes" time="3717761232">
+                </run>
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.3" party="гр1 Руслан Гареев" alias="3" solved="1" penalty="47981" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="47981" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="2877513148">
+                </run>
+                <run accepted="yes" time="2877719360">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="2879915357">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.48" party="гр3 Николай Яшин" alias="48" solved="1" penalty="70933" time="2147483647" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="70933" time="2147483647" accepted="1" attempts="2" score="0">
+                <run accepted="no" time="4254567688">
+                </run>
+                <run accepted="yes" time="4254801280">
+                </run>
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+        <session id="ru.innopolis.university.2016-2017.school.algo.4807.29" party="гр3 Руслан Кашапов" alias="29" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            <problem alias="A" id="com.codeforces.polygon.innopolis.theater" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="B" id="com.codeforces.polygon.innopolis.defenses" solved="0" penalty="0" time="0" accepted="0" attempts="1" score="0">
+                <run accepted="no" time="4256220452">
+                </run>
+            </problem>
+            <problem alias="C" id="com.codeforces.polygon.innopolis.symmetric-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="D" id="com.codeforces.polygon.innopolis.neighbors-coordinates" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="E" id="com.codeforces.polygon.innopolis.terrain-analysis" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="F" id="com.codeforces.polygon.innopolis.mines" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="G" id="com.codeforces.polygon.innopolis.pascals-triangle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="H" id="com.codeforces.polygon.innopolis.commutative-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="I" id="com.codeforces.polygon.innopolis.doubly-stochastic-matrix" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="J" id="com.codeforces.polygon.innopolis.connect-four" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="K" id="com.codeforces.polygon.innopolis.sudoko-verifier" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="L" id="com.codeforces.polygon.innopolis.magic-squares" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="M" id="com.codeforces.polygon.innopolis.secondary-diagonal" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="N" id="com.codeforces.polygon.innopolis.competition-1" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="O" id="com.codeforces.polygon.innopolis.snake-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="P" id="com.codeforces.polygon.innopolis.rotation" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="Q" id="com.codeforces.polygon.innopolis.square" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="R" id="com.codeforces.polygon.innopolis.competition" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+            <problem alias="S" id="com.codeforces.polygon.innopolis.spiral-filling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0">
+            </problem>
+        </session>
+    </contest>
+</standings>
