@@ -20,7 +20,7 @@ def hello_world():
 
 
 def getFiles(mypath):
-    return [f for f in listdir(mypath) if isfile(join(mypath, f))]
+    return sorted([f for f in listdir(mypath) if isfile(join(mypath, f))])
 
 
 @app.route("/showtable/<string:table>")
