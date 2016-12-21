@@ -21,9 +21,12 @@
 }
 
 .table td {
-   text-align: center;   
+	text-align: center;   
 }
 
+.table td[align^="left"] {
+	text-align: left;
+}
 .table td[status^="+"] {
     background: #D1F4B9;
 }

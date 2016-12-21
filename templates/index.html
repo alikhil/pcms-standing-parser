@@ -58,7 +58,7 @@
 				<thead>
 					<td>№</td>
 					<td>Ф.И.О</td>
-		    		<td>сумма</td>
+		    		<td><b>сумма</b></td>
 		    		{% for table in totalStandings.tables %}
 		    			<td>{{ table.contest.name }}</td>
 		    		{% endfor %}
@@ -68,8 +68,8 @@
 					<tr>
 						<td>{{ i }}</td>
 				  		{% set i = i + 1%}
-				  		<td>{{ participant.name }}</td>
-				  		<td>{{ participant.solved }}
+				  		<td align="left">{{ participant.name }}</td>
+				  		<td><b>{{ participant.solved }}</b></td>
 				  		{% for table in totalStandings.tables %}
 				  			<td>{{ participant.contestSolvedMap[table.contest.name] if table.contest.name in participant.contestSolvedMap else 0 }}</td>
 				  		{% endfor %}
