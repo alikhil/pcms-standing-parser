@@ -10,6 +10,7 @@
 <div class="navbar navbar-inverse navbar-fixed-left">
   <a class="navbar-brand" href="/">Результаты</a>
   <ul class="nav navbar-nav">
+  		<li><a href="/submissions">Посылки</a></li>
  	{% for file in files %}
 		<li><a href="/showtable/{{file}}"> {{ file }} </a></li>
 	{% endfor %}
