@@ -36,6 +36,8 @@ class Contest(object):
         self.status = status
         self.frozen = frozen
         self.problems = parse_array_of(challenge["problem"], Problem)
+        self.problem_alias = dict(
+            (problem.alias, problem.name) for problem in self.problems)
         # [Problem(**c) for c in challenge["problem"]]
         self.sessions = parse_array_of(session, Session)
         self.sessions.sort(key=attrgetter("solved"), reverse=True)
