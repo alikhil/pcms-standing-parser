@@ -1,0 +1,52 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Посылки{% endblock %}
+
+{% block styles %}
+{{super()}}
+	<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+{% endblock %}
+
+
+{% block content %}
+ 	<div class="container">
+ 	<h1>Посылки</h1>
+ 	{% if submissions is not none %}
+ 		<div class="panel panel-default">
+		  <!-- Table -->
+		  	<table class="table">
+		    	<thead>
+		    			<td>Ф.И.О.</td>
+		    			<td>Время</td>
+		    			<td>Алиас</td>
+		    			<td>Задача</td>
+		    			<td>Контест</td>
+		    	</thead>
+		    	{% for submission in submissions %}
+		    		<tr class="{{submission.status}}">
+		    			<td>{{ submission.username }}</td>
+		    			<td>{{ submission.date }}</td>
+		    			<td>{{ submission.problem_alias }}</td>
+		    			<td>{{ submission.problem_name }}</td>
+		    			<td>{{ submission.contest_name }}</td>
+		    		</tr>
+		    	{% endfor %}
+			</table>
+		</div>
+		<nav aria-label="...">
+		 	<ul class="pager">
+    			<li class="previous"><a id="earlierButton" page="{{page + 1}}" href="#"><span aria-hidden="true">&larr;</span> Старые посылки</a></li>
+    			{% if page > 1 %}
+					<li class="next"><a id="laterButton" page="{{page - 1}}"" href="#">Новые посылки <span aria-hidden="true">&rarr;</span></a></li>
+				{% endif %}
+  			</ul>
+		</nav>
+ 	{% endif %}
+ 	</div>
+{% endblock %}
+
+
+{% block scripts %}
+	{{super()}}
+	<script src="{{url_for('.static', filename='submissions.js')}}"></script>
+{% endblock %}
+

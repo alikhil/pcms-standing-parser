@@ -33,3 +33,7 @@
 .table td[status^="-"] {
 	background: #F7D8CF;
 }
+
+.table tbody tr > td.success {
+  background-color: #dff0d8 !important;
+}
