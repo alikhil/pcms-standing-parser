@@ -37,3 +37,7 @@
 .table tbody tr > td.success {
   background-color: #dff0d8 !important;
 }
+
+.padding-left {
+	padding-left: 50px !important;
+}
