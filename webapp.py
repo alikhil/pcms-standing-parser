@@ -41,12 +41,14 @@ def show_submissions():
     page_p = request.args.get("page")
     page = 1 if page_p is None else int(page_p)
     range_p = request.args.get("range")
+    group_p = request.args.get("group")
 
     files = getFiles(config.XML_DIR)
     totalStandings = TotalStandings(
         [parse_file(config.XML_DIR + file) for file in files])
-    submissions = get_submissions(
-        totalStandings, range_p)[(page - 1) * page_limit:page_limit * page]
+    submissions = get_submissions(totalStandings, range_p, group_p)
+
+    submissions = submissions[(page - 1) * page_limit:page_limit * page]
 
     return render_template(
         "submissions.html", submissions=submissions, page=page)

@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 
-def get_submissions(totalStandings, range_p):
+def get_submissions(totalStandings, range_p, group):
     """Getting submissions from total standings"""
     submissions = list()
     for table in totalStandings.tables:
@@ -14,6 +14,9 @@ def get_submissions(totalStandings, range_p):
                     submissions.append(Submission(
                         session.username, run, problem, table.contest.name))
     sorted_ = sorted(submissions, key=lambda s: s.unix_time, reverse=True)
+    if group is not None:
+        sorted_ = [sub for sub in sorted_ if sub.username.startswith(group)]
+
     if range_p is None:
         return sorted_
     try:

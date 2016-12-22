@@ -1,5 +1,35 @@
 $(function(){
 
+    function getUrlVars() {
+        var vars = {};
+        var parts = decodeURIComponent(window.location.href).replace(
+            /[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+          vars[key] = value;
+        });
+        return vars;
+    }  
+
+    function navigate(button)
+    {
+        console.log("lo");
+        console.log($(button));
+        var page = $(button).attr("page");
+        var link = collectFilters() + "&page="+page;
+        console.log(link);
+        $(button).prop("href", link);
+    }
+
+    function collectFilters() {
+        var range = $("#date-range").val();
+        var group = $("#groupInput").val();
+        console.log("group:" + group);
+        var groupKeyVal = "";
+        if (group !== undefined && group !== "") {
+            groupKeyVal = "&group=" + group;
+        }
+        return "/submissions?range="+range + groupKeyVal;
+    }
+    
     $("#earlierButton").click(function() {
         navigate(this);
     });
@@ -13,16 +43,10 @@ $(function(){
         $(this).prop("href", link);
     });
 
-    configurePicker();
-
-    function getUrlVars() {
-        var vars = {};
-        var parts = window.location.href.replace(
-            /[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-          vars[key] = value;
-        });
-        return vars;
-    }   
+    var group = getUrlVars()["group"];
+    if (group !== undefined) {
+        $("#groupInput").val(decodeURI(group));
+    }
 
     function configurePicker()
     {
@@ -58,18 +82,7 @@ $(function(){
         cb(start, end);
     }
 
-    function navigate(button)
-    {
-        console.log("lo");
-        console.log($(button));
-        var page = $(button).attr("page");
-        var link = collectFilters() + "&page="+page;
-        console.log(link);
-        $(button).prop("href", link);
-    }
-    function collectFilters() {
-        var range = $("#date-range").val();
+    configurePicker();
 
-        return "/submissions?range="+range;
-    }
+
 });
