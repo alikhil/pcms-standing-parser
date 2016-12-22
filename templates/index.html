@@ -10,8 +10,8 @@
 <div class="navbar navbar-inverse navbar-fixed-left">
   <a class="navbar-brand" href="/">Результаты</a>
   <ul class="nav navbar-nav">
-  		<li><a href="/submissions">Посылки</a></li>
- 	{% for file in files %}
+		<li><a href="/submissions">Посылки</a></li>
+	{% for file in files %}
 		<li><a href="/showtable/{{file}}"> {{ file }} </a></li>
 	{% endfor %}
   </ul>
@@ -21,33 +21,33 @@
 
 
  {% block content %}
- 	<div class="container">
- 	{% if standings is not none %}
+	<div class="container">
+	{% if standings is not none %}
 		  <!-- Default panel contents -->
 		 <h1>{{standings.contest.name}}</h1>
 
 		 <div class="panel panel-default">
 		  <!-- Table -->
 		  <table class="table table-striped">
-		    <thead>
-		    	<td>№</td>
-		    	<td>Ф.И.О</td>
-		    	<td><b>сумма</b></td>
-		    	{% for problem in standings.contest.problems %}
-		    		<td><span title="{{ problem.name }}">{{ problem.alias }}</span></td>
-		    	{% endfor %}
-		    </thead>
-		 		{% set i = 1%}
+			<thead>
+				<td>№</td>
+				<td>Ф.И.О</td>
+				<td><b>сумма</b></td>
+				{% for problem in standings.contest.problems %}
+					<td><span title="{{ problem.name }}">{{ problem.alias }}</span></td>
+				{% endfor %}
+			</thead>
+				{% set i = 1%}
 			  {% for session in standings.contest.sessions %}
-			  	<tr>
-			  		<td>{{ i }}</td>
-			  		{% set i = i + 1%}
-			  		<td align="left">{{ session.username }}</td>
-			  		<td><b>{{ session.solved }}</b></td>
-			  		{% for problem in session.submitted_problems %}
-			  			<td status="{{ problem.status }}">{{ problem.status }}</td>
-			  		{% endfor %}
-			  	</tr>
+				<tr>
+					<td>{{ i }}</td>
+					{% set i = i + 1%}
+					<td align="left">{{ session.username }}</td>
+					<td><b>{{ session.solved }}</b></td>
+					{% for problem in session.submitted_problems %}
+						<td status="{{ problem.status }}">{{ problem.status }}</td>
+					{% endfor %}
+				</tr>
 			  {% endfor %}
 		   </table>
 		  </div>
@@ -59,21 +59,21 @@
 				<thead>
 					<td>№</td>
 					<td>Ф.И.О</td>
-		    		<td><b>сумма</b></td>
-		    		{% for table in totalStandings.tables %}
-		    			<td>{{ table.contest.name }}</td>
-		    		{% endfor %}
+					<td><b>сумма</b></td>
+					{% for table in totalStandings.tables %}
+						<td>{{ table.contest.name }}</td>
+					{% endfor %}
 				</thead>
 				{% set i = 1%}
 				{% for participant in totalStandings.participants %}
 					<tr>
 						<td>{{ i }}</td>
-				  		{% set i = i + 1%}
-				  		<td align="left">{{ participant.name }}</td>
-				  		<td><b>{{ participant.solved }}</b></td>
-				  		{% for table in totalStandings.tables %}
-				  			<td>{{ participant.contestSolvedMap[table.contest.name] if table.contest.name in participant.contestSolvedMap else 0 }}</td>
-				  		{% endfor %}
+						{% set i = i + 1%}
+						<td align="left"><a href="/submissions?group={{participant.name}}" title="Посмотреть посылки">{{ participant.name }}</a></td>
+						<td><b>{{ participant.solved }}</b></td>
+						{% for table in totalStandings.tables %}
+							<td>{{ participant.contestSolvedMap[table.contest.name] if table.contest.name in participant.contestSolvedMap else 0 }}</td>
+						{% endfor %}
 					</tr>
 				{% endfor %}
 			</table>
