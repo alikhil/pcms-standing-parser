@@ -27,7 +27,7 @@ $(function(){
         if (group !== undefined && group !== "") {
             groupKeyVal = "&group=" + group;
         }
-        return "/submissions?range="+range + groupKeyVal;
+        return "/pcms_standings/submissions?range="+range + groupKeyVal;
     }
     
     $("#earlierButton").click(function() {

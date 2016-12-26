@@ -9,14 +9,17 @@ import config
 
 app = Flask(__name__)
 
-
+@app.route("/pcms_standings")
 @app.route("/")
 def hello_world():
+    group_p = request.args.get("group")
     files = getFiles(config.XML_DIR)
     totalStandings = TotalStandings(
         [parse_file(config.XML_DIR + file) for file in files])
+    groups = totalStandings.get_groups()
+    totalStandings.filter_group(group_p)
     return render_template(
-        "index.html", files=files,
+        "index.html", files=files, groups=groups,
         standings=None, totalStandings=totalStandings)
 
 
@@ -25,6 +28,7 @@ def getFiles(mypath):
 
 
 @app.route("/showtable/<string:table>")
+@app.route("/pcms_standings/showtable/<string:table>")
 def showtable(table):
     files = getFiles(config.XML_DIR)
     standings = parse_file(config.XML_DIR + table) \
@@ -36,6 +40,7 @@ def showtable(table):
 
 
 @app.route("/submissions", methods=["GET"])
+@app.route("/pcms_standings/submissions", methods=["GET"])
 def show_submissions():
     page_limit = config.PAGE_LIMIT
     page_p = request.args.get("page")

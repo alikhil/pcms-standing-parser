@@ -135,6 +135,16 @@ class TotalStandings(object):
         self.participants = sorted(
             totalUsers, key=attrgetter("solved"), reverse=True)
 
+    def get_groups(self):
+        groups = list(
+            set([user.name.split(" ")[0] for user in self.participants]))
+        groups = [gr for gr in groups if gr.startswith("гр")]
+        return sorted(groups)
+
+    def filter_group(self, group):
+        if group in self.get_groups():
+            self.participants = [user for user in self.participants if user.name.startswith(group)]
+
 
 def printGroupedData(groupedData):
     for k, v in groupedData:
