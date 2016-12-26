@@ -9,5 +9,6 @@ git clone https://github.com/alikhil/pcms-standing-parser
 cd pcms-standing-parser
 
 pip install -r requirements.txt
+# put xml standings in samples directory
 python webapp.py
 ```
