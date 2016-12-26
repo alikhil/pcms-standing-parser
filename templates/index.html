@@ -3,7 +3,7 @@
 
 {% block styles %}
 {{super()}}
-	<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+	<link rel="stylesheet" href="/pcms_standings{{url_for('.static', filename='styles.css')}}">
 {% endblock %}
 
 {% block navbar %}
