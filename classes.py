@@ -25,6 +25,13 @@ class Standings(object):
     def __init__(self, contest):
         self.contest = Contest(**contest)
 
+    def get_groups(self):
+        groups = list(
+            set([session.username.split(" ")[0]
+                for session in self.contest.sessions]))
+        groups = [gr[2:] for gr in groups if gr.startswith("гр")]
+        return sorted(groups)
+
 
 class Contest(object):
 
@@ -71,6 +78,10 @@ class Session(object):
         self.solved = sum(
             [problem.accepted for problem in self.submitted_problems])
         # [SubmittedProblem(**p) for p in problem]
+        self.group = "all"
+        group = self.username.split(" ")[0]
+        if group.startswith("гр"):
+            self.group += " gr" + group[2:]
 
 
 class SubmittedProblem(object):
@@ -116,6 +127,10 @@ class TotalUser(object):
         for elem in elems:
             self.contestSolvedMap[elem[2]] = elem[1]
             self.solved += int(elem[1])
+        self.group = "all"
+        group = self.name.split(" ")[0]
+        if group.startswith("гр"):
+            self.group += " gr" + group[2:]
 
 
 class TotalStandings(object):
@@ -138,12 +153,8 @@ class TotalStandings(object):
     def get_groups(self):
         groups = list(
             set([user.name.split(" ")[0] for user in self.participants]))
-        groups = [gr for gr in groups if gr.startswith("гр")]
+        groups = [gr[2:] for gr in groups if gr.startswith("гр")]
         return sorted(groups)
-
-    def filter_group(self, group):
-        if group in self.get_groups():
-            self.participants = [user for user in self.participants if user.name.startswith(group)]
 
 
 def printGroupedData(groupedData):

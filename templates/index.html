@@ -22,10 +22,24 @@
 
  {% block content %}
 	<div class="container">
+	
 	{% if standings is not none %}
 		  <!-- Default panel contents -->
 		 <h1>{{standings.contest.name}}</h1>
 
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			Группа
+			<span class="caret"></span>
+			</button>
+		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		  		<li><a class="group-selector" group="all">Все</a></li>
+		  	{% for group in groups %}
+		  		<li><a class="group-selector" group="gr{{group}}">Группа {{group}}</a></li>
+		  	{% endfor %}
+		  	</ul>
+		</div>
+		<br/>
 		 <div class="panel panel-default">
 		  <!-- Table -->
 		  <table class="table table-striped">
@@ -39,7 +53,7 @@
 			</thead>
 				{% set i = 1%}
 			  {% for session in standings.contest.sessions %}
-				<tr>
+				<tr class="{{session.group}}">
 					<td>{{ i }}</td>
 					{% set i = i + 1%}
 					<td align="left">{{ session.username }}</td>
@@ -54,6 +68,19 @@
 
 	{% elif totalStandings is not none %}
 		<h1>Итоговая таблица</h1>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			Группа
+			<span class="caret"></span>
+			</button>
+		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		  		<li><a class="group-selector" group="all">Все</a></li>
+		  	{% for group in groups %}
+		  		<li><a class="group-selector" group="gr{{group}}">Группа {{group}}</a></li>
+		  	{% endfor %}
+		  	</ul>
+		</div>
+		<br/>
 		<div class="panel panel-default">
 			<table class="table table-striped">
 				<thead>
@@ -66,7 +93,7 @@
 				</thead>
 				{% set i = 1%}
 				{% for participant in totalStandings.participants %}
-					<tr>
+					<tr class="{{participant.group}}">
 						<td>{{ i }}</td>
 						{% set i = i + 1%}
 						<td align="left"><a href="/pcms_standings/submissions?group={{participant.name}}" title="Посмотреть посылки">{{ participant.name }}</a></td>
@@ -86,4 +113,11 @@
 	{% endif %}
 	</div>
 {% endblock %}
+
+
+{% block scripts %}
+	{{super()}}
+	<script src="/pcms_standings{{url_for('.static', filename='standings.js')}}"></script>
+{% endblock %}
+
 

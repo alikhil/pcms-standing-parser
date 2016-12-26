@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 from flask_bootstrap import Bootstrap
 from os import listdir
 from os.path import isfile, join
@@ -12,12 +12,10 @@ app = Flask(__name__)
 @app.route("/pcms_standings")
 @app.route("/")
 def hello_world():
-    group_p = request.args.get("group")
     files = getFiles(config.XML_DIR)
     totalStandings = TotalStandings(
         [parse_file(config.XML_DIR + file) for file in files])
     groups = totalStandings.get_groups()
-    totalStandings.filter_group(group_p)
     return render_template(
         "index.html", files=files, groups=groups,
         standings=None, totalStandings=totalStandings)
@@ -27,6 +25,11 @@ def getFiles(mypath):
     return sorted([f for f in listdir(mypath) if isfile(join(mypath, f))])
 
 
+@app.route("/pcms_standings/static/<path:path>")
+def sent_static(path):
+    return send_from_directory("static", path)
+
+
 @app.route("/showtable/<string:table>")
 @app.route("/pcms_standings/showtable/<string:table>")
 def showtable(table):
@@ -34,9 +37,10 @@ def showtable(table):
     standings = parse_file(config.XML_DIR + table) \
         if table in files else None
 
+    groups = standings.get_groups()
     return render_template(
         "index.html", files=files, standings=standings,
-        totalStandings=None)
+        totalStandings=None, groups=groups)
 
 
 @app.route("/submissions", methods=["GET"])
