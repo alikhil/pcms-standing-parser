@@ -12,7 +12,7 @@
   <ul class="nav navbar-nav">
 		<li><a href="/pcms_standings/submissions">Посылки</a></li>
 	{% for file in files %}
-		<li><a href="/pcms_standings/showtable/{{file}}"> {{ file }} </a></li>
+		<li><a href="/pcms_standings/showtable/{{file['path']}}"> {{ file["name"] }} </a></li>
 	{% endfor %}
   </ul>
 </div>

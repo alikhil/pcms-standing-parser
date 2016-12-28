@@ -9,15 +9,26 @@ import config
 
 app = Flask(__name__)
 
+
+def getFilesAndStanding():
+    files = getFiles(config.XML_DIR)
+    standings = []
+    filesList = []
+    for file in files:
+        standing = parse_file(config.XML_DIR + file)
+        standings.append(standing)
+        filesList.append({"path": file, "name": standing.contest.name})
+    totalStandings = TotalStandings(standings)
+    return filesList, totalStandings
+
+
 @app.route("/pcms_standings")
 @app.route("/")
 def hello_world():
-    files = getFiles(config.XML_DIR)
-    totalStandings = TotalStandings(
-        [parse_file(config.XML_DIR + file) for file in files])
+    filesList, totalStandings = getFilesAndStanding()
     groups = totalStandings.get_groups()
     return render_template(
-        "index.html", files=files, groups=groups,
+        "index.html", files=filesList, groups=groups,
         standings=None, totalStandings=totalStandings)
 
 
@@ -33,9 +44,9 @@ def sent_static(path):
 @app.route("/showtable/<string:table>")
 @app.route("/pcms_standings/showtable/<string:table>")
 def showtable(table):
-    files = getFiles(config.XML_DIR)
+    files, totalStandings = getFilesAndStanding()
     standings = parse_file(config.XML_DIR + table) \
-        if table in files else None
+        if table in [file["path"] for file in files] else None
 
     groups = standings.get_groups()
     return render_template(
