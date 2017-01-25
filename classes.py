@@ -35,7 +35,7 @@ class Standings(object):
 
 class Contest(object):
 
-    def __init__(self, name, time, length, status, frozen, challenge, session):
+    def __init__(self, name, time, length, status, frozen, challenge, session=None):
 
         self.name = name
         self.time = time
