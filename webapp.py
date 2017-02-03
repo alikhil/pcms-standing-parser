@@ -1,3 +1,7 @@
+"""
+Web applicaiton for browsing pcms standing results, submission and analytics
+"""
+
 from flask import Flask, render_template, request, send_from_directory
 from flask_bootstrap import Bootstrap
 from os import listdir
@@ -10,41 +14,47 @@ import config
 app = Flask(__name__)
 
 
-def getFilesAndStanding():
-    files = getFiles(config.XML_DIR)
+def get_files_and_standing():
+    """Read from samples directory standings and list of files"""
+
+    files = get_files(config.XML_DIR)
     standings = []
-    filesList = []
+    files_list = []
     for file in files:
         standing = parse_file(config.XML_DIR + file)
         standings.append(standing)
-        filesList.append({"path": file, "name": standing.contest.name})
-    totalStandings = TotalStandings(standings)
-    return filesList, totalStandings
+        files_list.append({"path": file, "name": standing.contest.name})
+    total_standings = TotalStandings(standings)
+    files_list = sorted(files_list, key=lambda t: t["name"])
+    return files_list, total_standings
 
 
 @app.route("/pcms_standings")
 @app.route("/")
-def hello_world():
-    filesList, totalStandings = getFilesAndStanding()
-    groups = totalStandings.get_groups()
+def main_route():
+    files_list, total_standings = get_files_and_standing()
+    groups = total_standings.get_groups()
     return render_template(
-        "index.html", files=filesList, groups=groups,
-        standings=None, totalStandings=totalStandings)
+        "index.html", files=files_list, groups=groups,
+        standings=None, totalStandings=total_standings)
 
 
-def getFiles(mypath):
-    return sorted([f for f in listdir(mypath) if isfile(join(mypath, f))])
-
+def get_files(mypath):
+    """Get list of files in samples directory"""
+    return [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 @app.route("/pcms_standings/static/<path:path>")
 def sent_static(path):
+    """Route for static resources"""
     return send_from_directory("static", path)
 
 
 @app.route("/showtable/<string:table>")
 @app.route("/pcms_standings/showtable/<string:table>")
-def showtable(table):
-    files, totalStandings = getFilesAndStanding()
+def show_table(table):
+    """Return standing table for chosen file"""
+
+    files, total_standings = get_files_and_standing()
     standings = parse_file(config.XML_DIR + table) \
         if table in [file["path"] for file in files] else None
 
@@ -57,16 +67,18 @@ def showtable(table):
 @app.route("/submissions", methods=["GET"])
 @app.route("/pcms_standings/submissions", methods=["GET"])
 def show_submissions():
+    """List submission by filter"""
+
     page_limit = config.PAGE_LIMIT
     page_p = request.args.get("page")
     page = 1 if page_p is None else int(page_p)
     range_p = request.args.get("range")
     group_p = request.args.get("group")
 
-    files = getFiles(config.XML_DIR)
-    totalStandings = TotalStandings(
+    files = get_files(config.XML_DIR)
+    total_standings = TotalStandings(
         [parse_file(config.XML_DIR + file) for file in files])
-    submissions = get_submissions(totalStandings, range_p, group_p)
+    submissions = get_submissions(total_standings, range_p, group_p)
 
     submissions = submissions[(page - 1) * page_limit:page_limit * page]
 
