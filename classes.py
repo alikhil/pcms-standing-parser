@@ -138,7 +138,7 @@ class TotalStandings(object):
         contests and list of participants."""
 
     def __init__(self, standings):
-        self.tables = standings
+        self.tables = sorted(standings, key=lambda s: s.contest.name)
         participants = [
             (session.username, session.solved, table.contest.name)
             for table in standings
