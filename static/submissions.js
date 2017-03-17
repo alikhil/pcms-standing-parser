@@ -11,18 +11,14 @@ $(function(){
 
     function navigate(button)
     {
-        console.log("lo");
-        console.log($(button));
         var page = $(button).attr("page");
         var link = collectFilters() + "&page="+page;
-        console.log(link);
         $(button).prop("href", link);
     }
 
     function collectFilters() {
         var range = $("#date-range").val();
         var group = $("#groupInput").val();
-        console.log("group:" + group);
         var groupKeyVal = "";
         if (group !== undefined && group !== "") {
             groupKeyVal = "&group=" + group;
@@ -39,7 +35,6 @@ $(function(){
 
     $("#filterButton").click(function(){
         var link = collectFilters();
-        console.log(link);
         $(this).prop("href", link);
     });
 
@@ -60,7 +55,7 @@ $(function(){
             end = moment(dates[1], "DD.MM.YYYY");
         }
 
-        function cb(start, end) {
+        function updateDatePicker(start, end) {
             $("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
             $("#date-range").val(start.format("D.MM.YYYY") + "-" + end.format("D.MM.YYYY"));
         }
@@ -77,9 +72,9 @@ $(function(){
                 "Прошлый месяц": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")],
                 "За все время": [moment("20160110","YYYYDDMM"), moment()]
             }
-        }, cb);
+        }, updateDatePicker);
 
-        cb(start, end);
+        updateDatePicker(start, end);
     }
 
     configurePicker();
