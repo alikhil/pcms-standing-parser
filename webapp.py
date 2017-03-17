@@ -2,7 +2,7 @@
 Web applicaiton for browsing pcms standing results, submission and analytics
 """
 
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, jsonify
 from flask_bootstrap import Bootstrap
 from os import listdir
 from os.path import isfile, join
@@ -13,6 +13,19 @@ import config
 
 app = Flask(__name__)
 
+def parse_date(range_p):
+    if range_p is None:
+        return None
+    try:
+        dates = range_p.split("-")
+        start = time.mktime(
+            datetime.strptime(dates[0], "%d.%m.%Y").timetuple())
+        end = time.mktime(
+            datetime.strptime(dates[1], "%d.%m.%Y").timetuple()) + 86399
+        return (start, end)
+    except:
+        print("Unable to parse date from:" + range_p)
+        return None
 
 def get_files_and_standing():
     """Read from samples directory standings and list of files"""
@@ -72,7 +85,7 @@ def show_submissions():
     page_limit = config.PAGE_LIMIT
     page_p = request.args.get("page")
     page = 1 if page_p is None else int(page_p)
-    range_p = request.args.get("range")
+    range_p = parse_date(request.args.get("range"))
     group_p = request.args.get("group")
 
     files = get_files(config.XML_DIR)
@@ -85,6 +98,23 @@ def show_submissions():
     return render_template(
         "submissions.html", submissions=submissions, page=page)
 
+@app.route("/analytics",  methods=["GET"])
+@app.route("/pcms_standings/analytics", methods=["GET"])
+def analytics():
+    return render_template("analytics.html")
+
+@app.route("/analytics/get_data", methods=["GET"])
+@app.route("pcms_standings/analytics/get_data", methods=["GET"])
+def get_data():
+
+    group_p = request.args.get("group")
+    range_p = parse_date(request.args.get("range"))
+    files = get_files(config.XML_DIR)
+    total_standings = TotalStandings(
+        [parse_file(config.XML_DIR + file) for file in files])
+    submissions = get_submissions(total_standings, range_p, group_p)
+    
+    return jsonify()
 
 if __name__ == "__main__":
     Bootstrap(app)
