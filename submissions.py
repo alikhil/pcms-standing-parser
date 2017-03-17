@@ -19,17 +19,10 @@ def get_submissions(totalStandings, range_p, group):
 
     if range_p is None:
         return sorted_
-    try:
-        dates = range_p.split("-")
-        start = time.mktime(
-            datetime.strptime(dates[0], "%d.%m.%Y").timetuple())
-        end = time.mktime(
-            datetime.strptime(dates[1], "%d.%m.%Y").timetuple()) + 86399
-        print(start, end)
-        return [sub for sub in sorted_
-                if sub.unix_time >= start and sub.unix_time <= end]
-    except:
-        return sorted_
+
+    start, end = range_p
+    return [sub for sub in sorted_
+            if sub.unix_time >= start and sub.unix_time <= end]
 
 
 class Submission:
