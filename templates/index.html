@@ -11,6 +11,7 @@
   <a class="navbar-brand" href="/pcms_standings">Результаты</a>
   <ul class="nav navbar-nav">
 		<li><a href="/pcms_standings/submissions">Посылки</a></li>
+		<li><a href="/pcms_standings/analytics">Аналитика</a></li>
 	{% for file in files %}
 		<li><a class="mini" href="/pcms_standings/showtable/{{file['path']}}"> {{ file["name"] }} </a></li>
 	{% endfor %}
