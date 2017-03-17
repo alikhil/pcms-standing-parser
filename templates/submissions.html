@@ -1,22 +1,6 @@
-{% extends "bootstrap/base.html" %}
+{% extends "base.html" %}
 {% block title %}Посылки{% endblock %}
 
-{% block styles %}
-{{super()}}
-	<link rel="stylesheet" href="/pcms_standings{{url_for('.static', filename='styles.css')}}">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
-{% endblock %}
-
-{% block navbar %}
-<div class="navbar navbar-default">
-	<div class="container-fluid">
-  		<a class="navbar-brand" href="/pcms_standings">Результаты</a>
-  		<ul class="nav navbar-nav">
-  				<li class="active"><a href="/pcms_standings/submissions">Посылки</a></li>
-  		</ul>
-  	</div>
-</div>
-{% endblock %}
 
 {% block content %}
  	<div class="container">
@@ -65,7 +49,7 @@
 		 	<ul class="pager">
     			<li class="previous"><a id="earlierButton" page="{{page + 1}}" href="#"><span aria-hidden="true">&larr;</span> Старые посылки</a></li>
     			{% if page > 1 %}
-					<li class="next"><a id="laterButton" page="{{page - 1}}"" href="#">Новые посылки <span aria-hidden="true">&rarr;</span></a></li>
+					<li class="next"><a id="laterButton" page="{{page - 1}}" href="#">Новые посылки <span aria-hidden="true">&rarr;</span></a></li>
 				{% endif %}
   			</ul>
 		</nav>
@@ -76,8 +60,11 @@
 
 {% block scripts %}
 	{{super()}}
-	<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 	<script src="/pcms_standings{{url_for('.static', filename='submissions.js')}}"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#submissions_link").addClass("active");
+		});
+	</script>
 {% endblock %}
 
