@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Аналитика{% endblock %}
+
+
+{% block content %}
+ 	<div class="container">
+ 	<h2>Фильтры</h2>
+ 	<div>
+ 	<form class="form-inline">
+  		<div class="form-group">
+    		<label for="groupInput">Группа</label>
+    		<input type="text" class="form-control" id="groupInput" placeholder="гр1">
+  		</div>
+  		<div class="form-group">
+    		<div id="reportrange" class="pull-right " style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
+    		<i class="glyphicon glyphicon-calendar fa fa-calendar"></i>&nbsp;
+    		<span></span> <b class="caret"></b>
+    		<input type="hidden" id="date-range" value="{{range}}">
+			</div>
+  		</div>
+		<div class="btn-group">
+			<a class="btn btn-default dropdown-toggle btn-select" type="button" data-toggle="dropdown" href="#">По неделям <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">По дням</a></li>
+				<li><a href="#">По неделям</a></li>
+				<li><a href="#">По месяцам</a></li>
+			</ul>
+		</div>
+  		<a id="filterButton" class="btn btn-default">Отфильтровать</a>
+	</form>
+ 		
+ 	</div>
+ 	<br/>
+ 	
+ 	</div>
+{% endblock %}
+
+
+{% block scripts %}
+	{{super()}}
+	<script src="/pcms_standings{{url_for('.static', filename='analytics.js')}}"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#analytics_link").addClass("active");
+		});
+	</script>
+{% endblock %}
+
