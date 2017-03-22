@@ -19,11 +19,10 @@
 			</div>
   		</div>
 		<div class="btn-group">
-			<a class="btn btn-default dropdown-toggle btn-select" type="button" data-toggle="dropdown" href="#">По неделям <span class="caret"></span></a>
+			<a class="btn btn-default dropdown-toggle btn-select" type="button" data-toggle="dropdown" href="#">По месяцам <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="#">По дням</a></li>
-				<li><a href="#">По неделям</a></li>
-				<li><a href="#">По месяцам</a></li>
+				<li><a href="#" val="day">По дням</a></li>
+				<li><a href="#" val="month">По месяцам</a></li>
 			</ul>
 		</div>
   		<a id="filterButton" class="btn btn-default">Отфильтровать</a>
@@ -31,7 +30,9 @@
  		
  	</div>
  	<br/>
- 	
+	 <div id="charts">
+ 		<canvas id="myChart" width="400" height="170"></canvas>
+	 </div>
  	</div>
 {% endblock %}
 
@@ -39,6 +40,7 @@
 {% block scripts %}
 	{{super()}}
 	<script src="/pcms_standings{{url_for('.static', filename='analytics.js')}}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			$("#analytics_link").addClass("active");

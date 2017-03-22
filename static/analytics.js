@@ -1,70 +1,98 @@
 $(function(){
 
-    function getUrlVars() {
-        var vars = {};
-        var parts = decodeURIComponent(window.location.href).replace(
-            /[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-          vars[key] = value;
-        });
-        return vars;
-    }  
-
-    function navigate(button)
-    {
-        console.log("lo");
-        console.log($(button));
-        var page = $(button).attr("page");
-        var link = collectFilters() + "&page="+page;
-        console.log(link);
-        $(button).prop("href", link);
+    function sortKeys(obj, datef) {
+        datef = datef || "MM-YYYY";
+        var keys = Object.keys(obj);
+        keys.sort(function(a,b){ return moment(a, datef) - moment(b, datef);});
+        return keys;
     }
+    function drawChart(data) {
+        $("#myChart").remove();
+        $("#charts").append("<canvas id='myChart' width='400' height='170'></canvas>");
+        var context = $("#myChart");
+        var datef = data.data_type == "month" ? "MM-YYYY" : "DD-MM-YYYY";
+        
+        
+        var all = JSON.parse(data.all);
+        var allKeys = sortKeys(all, datef);
+        var allValues = allKeys.map(k => all[k]);
+
+        var success = JSON.parse(data.success);
+        var successValues = allKeys.map((k) => Object.hasOwnProperty.call(success, k) ?  success[k] : 0);
+
+        var chartType = data.data_type == "month" ? "bar" : "line";
+        var myChart = new Chart(context, {
+            type: chartType,
+            data: {
+                labels: allKeys,
+                datasets: [{
+                    label: '# Успешных посылок',
+                    data: successValues,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                },
+                {
+                    label: "# всего попыток",
+                    data: allValues,
+                    backgroundColor:'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
+        });
+    }
+
+    var data_type = "month";
 
     function collectFilters() {
         var range = $("#date-range").val();
         var group = $("#groupInput").val();
-        console.log("group:" + group);
         var groupKeyVal = "";
         if (group !== undefined && group !== "") {
             groupKeyVal = "&group=" + group;
         }
-        return "/pcms_standings/submissions?range="+range + groupKeyVal;
+        return "/pcms_standings/analytics/get_data?range="+range + groupKeyVal + "&data_type=" + data_type;
     }
     
-    $("#earlierButton").click(function() {
-        navigate(this);
-    });
-    $("#laterButton").click(function() {
-        navigate(this);
-    });
 
     $(".dropdown-menu li a").click(function(){
         var selText = $(this).text();
+        data_type = $(this).attr("val");
+        console.log(data_type);
         console.log("drop down click");
         $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
     });
 
     $("#filterButton").click(function(){
-        var link = collectFilters();
-        console.log(link);
-        $(this).prop("href", link);
+        var url = collectFilters();
+        $.ajax({
+            url
+        }).done(function(data, err) {
+            console.log("analytics: sucseed");
+            console.info(data);
+            drawChart(data);
+        }).fail(function(err) {
+            console.error(err);
+        });
     });
 
-    var group = getUrlVars()["group"];
-    if (group !== undefined) {
-        $("#groupInput").val(decodeURI(group));
-    }
-
+    
     function configurePicker()
     {
-        var range = getUrlVars()["range"];
-        var start = moment().subtract(29, "days");
+        
+        var start = moment("01.09.2016", "DD.MM.YYYY");
         var end = moment();
-
-        if (range !== undefined) {
-            var dates = range.split("-");
-            start = moment(dates[0], "DD.MM.YYYY");
-            end = moment(dates[1], "DD.MM.YYYY");
-        }
+        
 
         function updateDatePicker(start, end) {
             $("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
