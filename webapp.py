@@ -2,13 +2,18 @@
 Web applicaiton for browsing pcms standing results, submission and analytics
 """
 
-from flask import Flask, render_template, request, send_from_directory, jsonify
-from flask_bootstrap import Bootstrap
+import time
 from os import listdir
 from os.path import isfile, join
+from datetime import datetime
+
+from flask import Flask, render_template, request, send_from_directory, jsonify
+from flask_bootstrap import Bootstrap
+
 from parser_xml import parse_standing_from_file as parse_file
 from classes import TotalStandings
 from submissions import get_submissions
+from analytics import get_analytics
 import config
 
 app = Flask(__name__)
@@ -98,23 +103,27 @@ def show_submissions():
     return render_template(
         "submissions.html", submissions=submissions, page=page)
 
-@app.route("/analytics",  methods=["GET"])
+@app.route("/analytics", methods=["GET"])
 @app.route("/pcms_standings/analytics", methods=["GET"])
 def analytics():
     return render_template("analytics.html")
 
 @app.route("/analytics/get_data", methods=["GET"])
-@app.route("pcms_standings/analytics/get_data", methods=["GET"])
+@app.route("/pcms_standings/analytics/get_data", methods=["GET"])
 def get_data():
 
     group_p = request.args.get("group")
     range_p = parse_date(request.args.get("range"))
+    data_type_p = request.args.get("data_type")
+    if data_type_p not in ["day", "month"]:
+        data_type_p = "month"
     files = get_files(config.XML_DIR)
     total_standings = TotalStandings(
         [parse_file(config.XML_DIR + file) for file in files])
     submissions = get_submissions(total_standings, range_p, group_p)
-    
-    return jsonify()
+    result = get_analytics(submissions, data_type_p)
+
+    return jsonify(result)
 
 if __name__ == "__main__":
     Bootstrap(app)
