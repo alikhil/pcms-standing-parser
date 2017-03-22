@@ -1,6 +1,5 @@
-import config
-import time
 from datetime import datetime
+import config
 
 
 def get_submissions(totalStandings, range_p, group):
@@ -37,3 +36,5 @@ class Submission:
         self.date = datetime.fromtimestamp(
             self.unix_time).strftime("%d.%m.%Y %H:%M")
         self.contest_name = contest_name
+        self.day = datetime.fromtimestamp(self.unix_time).strftime("%d-%m-%Y")
+        self.month = datetime.fromtimestamp(self.unix_time).strftime("%m-%Y")
