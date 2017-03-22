@@ -28,15 +28,15 @@ $(function(){
                 datasets: [{
                     label: '# Успешных посылок',
                     data: successValues,
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(30, 181, 120, 0.2)',
+                    borderColor: 'rgba(30, 181, 120, 1)',
                     borderWidth: 1
                 },
                 {
                     label: "# всего попыток",
                     data: allValues,
-                    backgroundColor:'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor:'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
                     borderWidth: 1
                 }]
             },
@@ -73,7 +73,7 @@ $(function(){
         $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
     });
 
-    $("#filterButton").click(function(){
+    function updateAnalytics() {
         var url = collectFilters();
         $.ajax({
             url
@@ -84,8 +84,13 @@ $(function(){
         }).fail(function(err) {
             console.error(err);
         });
+    }
+
+    $("#filterButton").click(function(){
+        updateAnalytics();
     });
 
+    updateAnalytics();
     
     function configurePicker()
     {
