@@ -39,6 +39,8 @@ def get_files_and_standing():
     standings = []
     files_list = []
     for file in files:
+        if not file.endswith(".xml"):
+            continue
         standing = parse_file(config.XML_DIR + file)
         standings.append(standing)
         files_list.append({"path": file, "name": standing.contest.name})
