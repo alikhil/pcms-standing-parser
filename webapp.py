@@ -74,7 +74,7 @@ def sent_static(path):
 def show_table(table):
     """Return standing table for chosen file"""
 
-    files, total_standings = get_files_and_standing()
+    files, _ = get_files_and_standing()
     standings = parse_file(config.XML_DIR + table) \
         if table in [file["path"] for file in files] else None
 

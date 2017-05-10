@@ -4,9 +4,9 @@ from itertools import groupby
 
 def distinct(sequence):
     seen = set()
-    for s in sequence:
-        if s not in seen:
-            seen.add(s)
+    for i in sequence:
+        if i not in seen:
+            seen.add(i)
     return seen
 
 
@@ -28,7 +28,7 @@ class Standings(object):
     def get_groups(self):
         groups = list(
             set([session.username.split(" ")[0]
-                for session in self.contest.sessions]))
+                 for session in self.contest.sessions]))
         groups = [gr[2:] for gr in groups if gr.startswith("гр")]
         return sorted(groups)
 
@@ -45,10 +45,8 @@ class Contest(object):
         self.problems = parse_array_of(challenge["problem"], Problem)
         self.problem_alias = dict(
             (problem.alias, problem.name) for problem in self.problems)
-        # [Problem(**c) for c in challenge["problem"]]
         self.sessions = parse_array_of(session, Session)
         self.sessions.sort(key=attrgetter("solved"), reverse=True)
-        # [Session(**s) for s in session]
 
 
 class Problem(object):
@@ -58,7 +56,7 @@ class Problem(object):
         self.alias = alias
         self.name = name
 
-
+# pylint:disable=locally-disabled, W0622, C0103
 class Session(object):
 
     def __init__(
@@ -77,7 +75,6 @@ class Session(object):
         self.submitted_problems = parse_array_of(problem, SubmittedProblem)
         self.solved = sum(
             [problem.accepted for problem in self.submitted_problems])
-        # [SubmittedProblem(**p) for p in problem]
         self.group = "all"
         group = self.username.split(" ")[0]
         if group.startswith("гр"):
@@ -100,7 +97,7 @@ class SubmittedProblem(object):
         self.score = score
         self.runs = parse_array_of(run, Run)
         self.status = -attempts
-        if (self.accepted == 1):
+        if self.accepted == 1:
             self.status = "+" + (str(attempts) if attempts > 1 else "")
         elif self.attempts == 0:
             self.status = "."

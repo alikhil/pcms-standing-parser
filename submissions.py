@@ -2,10 +2,10 @@ from datetime import datetime
 import config
 
 
-def get_submissions(totalStandings, range_p, group):
+def get_submissions(total_standings, range_p, group):
     """Getting submissions from total standings"""
     submissions = list()
-    for table in totalStandings.tables:
+    for table in total_standings.tables:
         for session in table.contest.sessions:
             for problem in session.submitted_problems:
                 for run in problem.runs:
