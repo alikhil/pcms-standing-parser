@@ -11,10 +11,11 @@ from flask import Flask, render_template, request, send_from_directory, jsonify
 from flask_bootstrap import Bootstrap
 
 from parser_xml import parse_standing_from_file as parse_file
-from classes import TotalStandings
-from submissions import get_submissions
+from models.standings import TotalStandings
+from models.submissions import get_submissions
 from analytics import get_analytics
 import config
+
 
 app = Flask(__name__)
 
