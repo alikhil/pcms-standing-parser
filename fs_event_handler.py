@@ -8,4 +8,5 @@ class FSEventHandler(FileSystemEventHandler):
 
     def on_any_event(self, event):
         print("some event happened: " + event.src_path + " " + event.event_type)
-        self.on_event()
+        if event.src_path.endswith(".xml"):
+            self.on_event()
