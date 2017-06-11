@@ -14,10 +14,12 @@ from parser_xml import parse_standing_from_file as parse_file
 from models.standings import TotalStandings
 from models.submissions import get_submissions
 from analytics import get_analytics
+from repository import DataRepository
 import config
 
 
 app = Flask(__name__)
+repository = DataRepository()
 
 def parse_date(range_p):
     if range_p is None:
@@ -27,7 +29,7 @@ def parse_date(range_p):
         start = time.mktime(
             datetime.strptime(dates[0], "%d.%m.%Y").timetuple())
         end = time.mktime(
-            datetime.strptime(dates[1], "%d.%m.%Y").timetuple()) + 86399
+            datetime.strptime(dates[1], "%d.%m.%Y").timetuple()) + (60 * 60 * 24 - 1)
         return (start, end)
     except:
         print("Unable to parse date from:" + range_p)
@@ -53,7 +55,8 @@ def get_files_and_standing():
 @app.route("/pcms_standings")
 @app.route("/")
 def main_route():
-    files_list, total_standings = get_files_and_standing()
+    files_list = repository.get_contests_files()
+    total_standings = repository.get_total_standings()
     groups = total_standings.get_groups()
     return render_template(
         "index.html", files=files_list, groups=groups,
@@ -75,11 +78,10 @@ def sent_static(path):
 def show_table(table):
     """Return standing table for chosen file"""
 
-    files, _ = get_files_and_standing()
-    standings = parse_file(config.XML_DIR + table) \
-        if table in [file["path"] for file in files] else None
-
+    files = repository.get_contests_files()
+    standings = repository.get_contest_standing(table)
     groups = standings.get_groups()
+
     return render_template(
         "index.html", files=files, standings=standings,
         totalStandings=None, groups=groups)
@@ -96,11 +98,8 @@ def show_submissions():
     range_p = parse_date(request.args.get("range"))
     group_p = request.args.get("group")
 
-    files = get_files(config.XML_DIR)
-    total_standings = TotalStandings(
-        [parse_file(config.XML_DIR + file) for file in files])
+    total_standings = repository.get_total_standings()
     submissions = get_submissions(total_standings, range_p, group_p)
-
     submissions = submissions[(page - 1) * page_limit:page_limit * page]
 
     return render_template(
@@ -120,9 +119,8 @@ def get_data():
     data_type_p = request.args.get("data_type")
     if data_type_p not in ["day", "month"]:
         data_type_p = "month"
-    files = get_files(config.XML_DIR)
-    total_standings = TotalStandings(
-        [parse_file(config.XML_DIR + file) for file in files])
+
+    total_standings = repository.get_total_standings()
     submissions = get_submissions(total_standings, range_p, group_p)
     result = get_analytics(submissions, data_type_p)
 
