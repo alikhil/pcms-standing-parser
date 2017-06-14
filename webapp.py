@@ -6,6 +6,7 @@ import time
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
+import logging
 
 from flask import Flask, render_template, request, send_from_directory, jsonify
 from flask_bootstrap import Bootstrap
@@ -17,6 +18,8 @@ from analytics import get_analytics
 from repository import DataRepository
 import config
 
+logging.basicConfig(level=logging.DEBUG, filename="app.log", format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 repository = DataRepository()
@@ -32,7 +35,7 @@ def parse_date(range_p):
             datetime.strptime(dates[1], "%d.%m.%Y").timetuple()) + (60 * 60 * 24 - 1)
         return (start, end)
     except:
-        print("Unable to parse date from:" + range_p)
+        logger.error("Unable to parse date from:" + range_p)
         return None
 
 def get_files_and_standing():
