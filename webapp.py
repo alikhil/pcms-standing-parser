@@ -18,7 +18,7 @@ from analytics import get_analytics
 from repository import DataRepository
 import config
 
-logging.basicConfig(level=logging.DEBUG, filename="app.log", format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+logging.basicConfig(level=logging.ERROR, filename="app.log", format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
