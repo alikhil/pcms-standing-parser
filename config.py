@@ -7,3 +7,4 @@ PAGE_LIMIT = 200
 """Path to directory where stores xml files
    !!!	should end with '/' """
 XML_DIR = "./samples/"
+AUTO_REFRESH_SECONDS = 60
