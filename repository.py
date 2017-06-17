@@ -2,6 +2,7 @@ from collections import namedtuple
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
+import time, threading
 from watchdog.observers import Observer
 
 import config
@@ -23,6 +24,7 @@ class DataRepository:
     def __init__(self):
         self.__set_data()
         self.__init_watchers()
+        self.__init_timer()
 
     def __set_data(self):
         self.standings, self.total_standing = self.read_data_from_files()
@@ -54,3 +56,7 @@ class DataRepository:
         self.observer = Observer()
         self.observer.schedule(event_handler, config.XML_DIR)
         self.observer.start()
+    
+    def __init_timer(self):
+        self.__set_data()
+        threading.Timer(config.AUTO_REFRESH_SECONDS, self.__init_timer).start()
