@@ -1,6 +1,7 @@
 from collections import namedtuple
 from os import listdir
 from os.path import isfile, join
+from datetime import datetime
 from watchdog.observers import Observer
 
 import config
@@ -25,6 +26,7 @@ class DataRepository:
 
     def __set_data(self):
         self.standings, self.total_standing = self.read_data_from_files()
+        self.last_update = str(datetime.now())
 
     def read_data_from_files(self):
 

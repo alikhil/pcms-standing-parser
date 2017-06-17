@@ -66,6 +66,13 @@ def main_route():
         standings=None, totalStandings=total_standings)
 
 
+@app.route("/pcms_standings/debug")
+@app.route("/debug")
+def debug():
+    debug_info = {"last_update": repository.last_update}
+    return jsonify(debug_info)
+
+
 def get_files(mypath):
     """Get list of files in samples directory"""
     return [f for f in listdir(mypath) if isfile(join(mypath, f))]
