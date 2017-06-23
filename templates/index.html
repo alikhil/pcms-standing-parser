@@ -26,7 +26,7 @@
 	
 	{% if standings is not none %}
 		  <!-- Default panel contents -->
-		 <h1>{{standings.contest.name}}</h1>
+		<h1>{{standings.contest.name}}</h1>
 
 		<div class="dropdown">
 			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -69,17 +69,18 @@
 
 	{% elif totalStandings is not none %}
 		<h1>Итоговая таблица</h1>
+		<a href="/pcms_standings/refresh" type="button" class="btn btn-default" style="margin-bottom:5px;">Обновить таблицу</a>
 		<div class="dropdown">
 			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 			Группа
 			<span class="caret"></span>
 			</button>
-		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-		  		<li><a class="group-selector" group="all">Все</a></li>
-		  	{% for group in groups %}
-		  		<li><a class="group-selector" group="gr{{group}}">Группа {{group}}</a></li>
-		  	{% endfor %}
-		  	</ul>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li><a class="group-selector" group="all">Все</a></li>
+			{% for group in groups %}
+				<li><a class="group-selector" group="gr{{group}}">Группа {{group}}</a></li>
+			{% endfor %}
+			</ul>
 		</div>
 		<br/>
 		<div class="panel panel-default">
