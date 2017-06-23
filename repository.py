@@ -2,7 +2,7 @@ from collections import namedtuple
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
-import time, threading, logging
+import threading, logging
 from watchdog.observers import Observer
 
 import config
@@ -24,13 +24,17 @@ logger = logging.getLogger(__name__)
 class DataRepository:
 
     def __init__(self):
-        self.__set_data()
+        self.set_data()
         self.__init_watchers()
         self.__init_timer()
 
-    def __set_data(self):
-        self.standings, self.total_standing = self.read_data_from_files()
-        self.last_update = str(datetime.now())
+    def set_data(self):
+        try:
+            self.standings, self.total_standing = self.read_data_from_files()
+            self.last_update = str(datetime.now())
+        except Exception as e:
+            logger.error(e)
+
 
     def read_data_from_files(self):
 
@@ -54,14 +58,11 @@ class DataRepository:
         return next(t.standing for t in self.standings if t.fname == file_name)
 
     def __init_watchers(self):
-        event_handler = FSEventHandler(self.__set_data)
+        event_handler = FSEventHandler(self.set_data)
         self.observer = Observer()
         self.observer.schedule(event_handler, config.XML_DIR)
         self.observer.start()
 
     def __init_timer(self):
-        try:
-            self.__set_data()
-        except Exception as e:
-            logger.error(e)
+        self.set_data()
         threading.Timer(config.AUTO_REFRESH_SECONDS, self.__init_timer).start()
