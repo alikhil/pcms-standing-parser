@@ -6,5 +6,6 @@ CONTESTS_START_TIME = 1475311854218
 PAGE_LIMIT = 200
 """Path to directory where stores xml files
    !!!	should end with '/' """
-XML_DIR = "./samples/"
+XML_DIR = "/Users/alikhil/OneDrive/samples/"
 AUTO_REFRESH_SECONDS = 60
+MIN_REFRESH_DELAY = 10
