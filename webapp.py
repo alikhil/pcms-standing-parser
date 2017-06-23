@@ -8,7 +8,7 @@ from os.path import isfile, join
 from datetime import datetime
 import logging
 
-from flask import Flask, render_template, request, send_from_directory, jsonify
+from flask import Flask, render_template, request, send_from_directory, jsonify, redirect
 from flask_bootstrap import Bootstrap
 
 from parser_xml import parse_standing_from_file as parse_file
@@ -135,6 +135,18 @@ def get_data():
     result = get_analytics(submissions, data_type_p)
 
     return jsonify(result)
+
+last_refresh = datetime.now()
+@app.route("/pcms_standings/refresh", methods=["GET"])
+@app.route("/refresh")
+def refresh():
+    global last_refresh
+    current = datetime.now()
+    if (current - last_refresh).total_seconds() > config.MIN_REFRESH_DELAY:
+        repository.set_data()
+        last_refresh = current
+    
+    return redirect("/pcms_standings")
 
 if __name__ == "__main__":
     Bootstrap(app)
