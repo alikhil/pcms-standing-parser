@@ -2,7 +2,7 @@ from collections import namedtuple
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
-import time, threading
+import time, threading, logging
 from watchdog.observers import Observer
 
 import config
@@ -18,6 +18,8 @@ def parse_file(file_name):
 def get_files(mypath):
     """Get list of files in samples directory"""
     return [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+logger = logging.getLogger(__name__)
 
 class DataRepository:
 
@@ -56,7 +58,10 @@ class DataRepository:
         self.observer = Observer()
         self.observer.schedule(event_handler, config.XML_DIR)
         self.observer.start()
-    
+
     def __init_timer(self):
-        self.__set_data()
+        try:
+            self.__set_data()
+        except Exception as e:
+            logger.error(e)
         threading.Timer(config.AUTO_REFRESH_SECONDS, self.__init_timer).start()
