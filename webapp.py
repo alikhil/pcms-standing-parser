@@ -148,6 +148,11 @@ def refresh():
     
     return redirect("/pcms_standings")
 
+@app.errorhandler(Exception)
+def handle_error(error):
+    logger.error(error)
+    return jsonify({"message": str(error)})
+
 if __name__ == "__main__":
     Bootstrap(app)
     app.run(host="0.0.0.0", port=1818, debug=True)
