@@ -27,11 +27,13 @@ class DataRepository:
         self.set_data()
         self.__init_watchers()
         self.__init_timer()
+        self.last_update = datetime.now()
 
     def set_data(self):
         try:
-            self.standings, self.total_standing = self.read_data_from_files()
-            self.last_update = str(datetime.now())
+            if (datetime.now() - self.last_update).total_seconds() > config.MIN_REFRESH_DELAY:
+                self.standings, self.total_standing = self.read_data_from_files()
+                self.last_update = str(datetime.now())
         except Exception as e:
             logger.error(e)
 
