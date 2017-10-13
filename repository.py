@@ -33,7 +33,7 @@ class DataRepository:
         try:
             if (datetime.now() - self.last_update).total_seconds() > config.MIN_REFRESH_DELAY:
                 self.standings, self.total_standing = self.read_data_from_files()
-                self.last_update = str(datetime.now())
+                self.last_update = datetime.now()
         except Exception as e:
             logger.error(e)
 
