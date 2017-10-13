@@ -69,7 +69,7 @@ def main_route():
 @app.route("/pcms_standings/debug")
 @app.route("/debug")
 def debug():
-    debug_info = {"last_update": str(repository.last_update})
+    debug_info = {"last_update": str(repository.last_update)}
     return jsonify(debug_info)
 
 
